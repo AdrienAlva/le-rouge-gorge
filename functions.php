@@ -58,4 +58,57 @@ add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 function mytheme_add_woocommerce_support() {
     add_theme_support( 'woocommerce' );
 }
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
+
+
+/* Adding short descritpion to shop list items */
+function tutsplus_excerpt_in_product_archives() {
+    	the_excerpt();     
+}
+add_action( 'woocommerce_after_shop_loop_item_title', 'tutsplus_excerpt_in_product_archives', 9 );
+
+
+/* Removing breadcrumbs from single product */
+function remove_shop_breadcrumbs(){
+    if (is_product())
+        remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0);
+}
+add_action('template_redirect', 'remove_shop_breadcrumbs' );
+
+
+/* Moving Description tab */
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+
+add_action( 'woocommerce_single_product_summary', 'woocommerce_output_product_data_tabs', 11 );
+
+
+/* Ne pas afficher l'UGS sur vos pages produits */
+add_filter( 'wc_product_sku_enabled', 'wpm_remove_sku' );
+
+function wpm_remove_sku( $enabled ) {
+	// Si on est pas dans l'admin et si on est sur la page produit
+    if ( !is_admin() && is_product() ) {
+        return false;
+    }
+    return $enabled;
+}
+
+
+//remove summary from single product
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+
+function woocommerce_template_single_excerpt() {
+        return;
+}
+
+
+add_action('woocommerce_single_product_summary', 'move_single_product_price', 1);
+function move_single_product_price() {
+    remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
+    add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 29);
+}
+
+
+
+
 ?>

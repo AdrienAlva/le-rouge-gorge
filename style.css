@@ -298,6 +298,18 @@ margin-top: 0;
 }
 
 
+/* 404 */
+
+#message-404 {
+
+	text-align: center;
+	font-size: 2em;
+	margin-top: 5%;
+	margin-bottom: 10%;
+
+}
+
+
 /* BLOG */
 
 #blog-feed {
@@ -361,7 +373,7 @@ margin-top: 0;
 }
 
 #single-post-content p {
-	text-align: justify;
+	/*text-align: justify;*/
 }
 
 #author-date {
@@ -372,28 +384,89 @@ margin-top: 0;
 
 /* SHOP LIST */
 
-#shop-content {
-	width: 75%;
+#main {
+	width: 60%;
 	margin: auto;
-}
-
-#shop-content ul {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
+	overflow: hidden;
 
 }
 
-.lrg-single-product {
-	width: 80%;
-	margin: auto;
+#main ul {
+
+}
+
+.lrg-single-product {	
+	height: 40vh !important;
+	color: rgb(65, 49, 47);
 	text-align: center;
 }
 
+.lrg-single-product li {
+	display: flex;
+	/*justify-content: space-around;*/
+	width: 100% !important;
+}
 
+.lrg-single-product li img {
+	/*width: 30%;*/
+}
+
+.lrg-single-product a {
+	color: rgb(65, 49, 47);
+}
+
+.product-data {
+	width: 60%;
+	text-align: left;
+	padding-left: 10%;
+}
+
+.product-data p {
+	height: 150px;
+	font-size: 1.2em;
+	text-align: justify;
+	margin-top: 0;
+	overflow: auto;
+}
+
+.price-and-button {
+	display: flex;
+}
+
+.price {
+	/*width: 25%;*/
+	float: left;
+	font-size: 1.3em !important;
+	font-weight: bold !important;
+	margin-bottom: 0 !important;
+	padding: .3em 1em !important;
+	color: rgb(65, 49, 47) !important;
+/*	position: absolute !important;
+	bottom: 5% !important;*/
+}
+
+.add_to_cart_button {
+	float: right; 
+	margin-top: 0 !important;
+	margin-right: 25% !important;
+	background-color: rgb(226, 67, 32) !important;
+	color: white !important;
+	position: absolute !important;
+	border-radius: 1em !important;
+/*	bottom: 5% !important;
+	right: 0;*/
+}
 
 .woocommerce-loop-product__title {
+	font-size: 2em !important;
+}
 
+.page-numbers a {
+	color: rgb(65, 49, 47);
+}
+
+#primary {
+	overflow: hidden; /* resoud le probleme du footer */
 }
 
 

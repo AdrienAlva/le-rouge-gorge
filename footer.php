@@ -1,3 +1,5 @@
+
+
 <p id="made-with-love">La céramique créee avec ♡ à Chartres par @rougegorgecéramique2020</p>
 
 <footer>
