@@ -235,15 +235,14 @@ footer {
 	background-color: white;
 	text-align: center;
 	font-size: 2.5em;
-	transform: skew(-10deg);
+	/*transform: skew(-10deg);*/
 }
 
 #panel-actus p {
 	margin: 0;
 	padding-top: 3%;
 	padding-bottom: 2%;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
 
 /* BLOG HEADER */
@@ -382,17 +381,90 @@ margin-top: 0;
 }
 
 
+/* SHOP HEADER */
+
+#shop-header {
+	
+	width: 100%;
+	padding: 0;	
+	margin-bottom: 5%;
+}
+
+#top-shop-footer {
+	height: 2.4vh;
+	background-color: rgb(112, 96, 94);
+	display: flex;
+	justify-content: space-between;
+}
+
+#top-shop-footer a {
+	margin: auto;
+	margin-right: 1%;
+	margin-left: 1%;
+	color: rgb(31, 26, 26);
+	font-weight: bold;
+}
+
+#bottom-shop-footer {
+	width: 100%;
+	background-color: rgb(206, 195, 194);
+	height: 12.6vh;
+	display: flex;
+	/*line-height: 12.6vh;
+	white-space: nowrap;*/
+
+	
+}
+
+.menu-top-menu-shop-container {
+	width: 45%;
+	height: 100%;
+	display: flex;	
+	/*flex-direction: column;
+	justify-content: center;*/
+	margin-right: 0 !important;
+	/*box-sizing:border-box;*/
+}
+
+.top-menu-shop {
+	width: 100%;
+	display: flex;
+	list-style: none;
+	margin: auto;
+	padding: 0;	
+}
+
+.top-menu-shop li {	
+	border-right: rgb(225, 67, 32) solid 3px;
+
+}
+
+.top-menu-shop li:last-child {	
+	border-right: none;
+}
+
+.top-menu-shop li a{
+	margin: 0 15px;
+	color: rgb(31, 26, 26);
+	text-decoration: none;
+	font-size: 1.4em;
+}
+
+#main-logo-shop {
+	width: 10%;
+	display: block;
+}
+
+#main-logo-shop img {
+	height: 100%;
+}
+
 /* SHOP LIST */
 
 #main {
 	width: 60%;
 	margin: auto;
 	overflow: hidden;
-
-}
-
-#main ul {
-
 }
 
 .lrg-single-product {	
@@ -438,6 +510,7 @@ margin-top: 0;
 	float: left;
 	font-size: 1.3em !important;
 	font-weight: bold !important;
+	margin-top: 0 !important;
 	margin-bottom: 0 !important;
 	padding: .3em 1em !important;
 	color: rgb(65, 49, 47) !important;
@@ -469,6 +542,25 @@ margin-top: 0;
 	overflow: hidden; /* resoud le probleme du footer */
 }
 
+/* SINGLE PRODUCT PAGE */
+
+.single_add_to_cart_button {
+	background-color: rgb(226, 67, 32) !important;
+	color: white !important;
+	border-radius: 1em !important;
+}
+
+.posted_in {
+	margin-right: 10px;
+}
+
+.posted_in a {
+	color: rgb(226, 67, 32);
+}
+
+.tagged_as a {
+	color: rgb(226, 67, 32);
+}
 
 
 

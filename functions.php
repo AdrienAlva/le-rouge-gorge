@@ -30,8 +30,8 @@ add_theme_support( 'post-thumbnails' );
 register_nav_menus(
 
  array( 'top-menu' => 'Top Menu',
-		'footer-menu' => 'Footer Menu' ) 
-
+		'footer-menu' => 'Footer Menu',
+		'top-menu-shop' => 'Top Menu Shop') 
 );
 
 // Add image sizes
@@ -70,8 +70,7 @@ add_action( 'woocommerce_after_shop_loop_item_title', 'tutsplus_excerpt_in_produ
 
 /* Removing breadcrumbs from single product */
 function remove_shop_breadcrumbs(){
-    if (is_product())
-        remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0);
+    remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0);
 }
 add_action('template_redirect', 'remove_shop_breadcrumbs' );
 
@@ -102,11 +101,24 @@ function woocommerce_template_single_excerpt() {
 }
 
 
+/* Move price on single product page */
 add_action('woocommerce_single_product_summary', 'move_single_product_price', 1);
 function move_single_product_price() {
     remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
     add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 29);
 }
+
+
+/* Remove stock from single product page*/
+function my_wc_hide_in_stock_message( $html, $product ) {
+	if ( $product->is_in_stock() ) {
+		return '';
+	}
+	return $html;
+}
+
+add_filter( 'woocommerce_get_stock_html', 'my_wc_hide_in_stock_message', 10, 2 );
+
 
 
 
