@@ -25,17 +25,27 @@
 				);
 			?> 
 
-			<!-- <div>
-				<ul class="top-menu-shop">
-					<li><a href="/wordpress/boutique">Boutique</a></li>
-					<li><a href="/wordpress/cours">Cours</a></li>
-					<li><a href="/wordpress/qui-suis-je">Qui suis-je</a></li>
-					<li><a href="/wordpress/blog">Blog</a></li>
-					<li><a href="/wordpress/qui-suis-je">Qui suis-je</a></li>
-				</ul>
-			</div> -->
-
 			<a id="main-logo-shop" href="/wordpress"><img src="<?php bloginfo( 'template_directory' );?>/images/main-logo.png"></a>
+
+
+
+			<div id="search-and-icons">
+
+				<input type="search" id="shop-search" name="q" aria-label="Rechercher dans la boutique" placeholder="Rechercher...">
+
+				<div id="my-account-block-header">
+					<a id="my-account-header" href="/wordpress">
+						<img src="<?php bloginfo( 'template_directory' );?>/images/MON-COMPTE.png">
+						<p>Mon compte</p>
+					</a>
+				</div>
+				<div id="cart-block-header">
+					<a id="cart-header" href="/wordpress/panier">
+						<img src="<?php bloginfo( 'template_directory' );?>/images/PANIER.png">
+						<p>Mon panier</p>
+					</a>
+				</div>
+			</div>
 
 
 		</div>

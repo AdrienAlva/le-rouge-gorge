@@ -410,6 +410,7 @@ margin-top: 0;
 	background-color: rgb(206, 195, 194);
 	height: 12.6vh;
 	display: flex;
+	
 	/*line-height: 12.6vh;
 	white-space: nowrap;*/
 
@@ -420,14 +421,11 @@ margin-top: 0;
 	width: 45%;
 	height: 100%;
 	display: flex;	
-	/*flex-direction: column;
-	justify-content: center;*/
 	margin-right: 0 !important;
 	/*box-sizing:border-box;*/
 }
 
 .top-menu-shop {
-	width: 100%;
 	display: flex;
 	list-style: none;
 	margin: auto;
@@ -458,6 +456,37 @@ margin-top: 0;
 #main-logo-shop img {
 	height: 100%;
 }
+
+#shop-search {
+	height: 20%;
+}
+
+#search-and-icons {
+	width: 45%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#search-and-icons  img {
+	height: 40%;
+	margin-top: 25%;
+}
+
+#search-and-icons  a {
+	text-decoration: none;
+	color: rgb(31, 26, 26);
+}
+
+#search-and-icons  p {
+	margin-top: 0;
+}
+
+#my-account-block-header {
+	
+
+}
+
+
 
 /* SHOP LIST */
 
