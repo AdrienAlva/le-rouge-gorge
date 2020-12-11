@@ -9,28 +9,28 @@
 
 </head>
 <body <?php body_class();?> >
-
-	<div class="wrapper">
-		<header>
-			<div class="header-first-row">
-				
-					<a href="/wordpress"><img id="logo" src="<?php bloginfo( 'template_directory' );?>/images/logo.png"></a>
-
-					<?php 
-
-						wp_nav_menu( 
-							array( 'theme_location' => 'top-menu',
-									'menu_class' => 'top-menu')
-						);
+	<div class="content">
+		<div class="wrapper">
+			<header>
+				<div class="header-first-row">
 					
-					?>
-					
-			</div>
-			<div class="header-second-row">
-				<h1 id="atelier-title">At<span class="red-letters">e</span>lier cér<span class="red-letters">a</span>mique</h1>
-				<p>Créations artisanales, artistiques,</p>
-				<p>locales et éco-responsables.</p>
-				<a href="/wordpress/boutique"><button id="discover-button">Je découvre</button></a>
-			</div>
-		</header>
-	</div>
+						<a href="/wordpress"><img id="logo" src="<?php bloginfo( 'template_directory' );?>/images/logo.png"></a>
+
+						<?php 
+
+							wp_nav_menu( 
+								array( 'theme_location' => 'top-menu',
+										'menu_class' => 'top-menu')
+							);
+						
+						?>
+						
+				</div>
+				<div class="header-second-row">
+					<h1 id="atelier-title">At<span class="red-letters">e</span>lier cér<span class="red-letters">a</span>mique</h1>
+					<p>Créations artisanales, artistiques,</p>
+					<p>locales et éco-responsables.</p>
+					<a href="/wordpress/boutique"><button id="discover-button">Je découvre</button></a>
+				</div>
+			</header>
+		</div>

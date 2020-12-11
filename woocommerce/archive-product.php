@@ -29,6 +29,43 @@ get_header( 'shop' );
 do_action( 'woocommerce_before_main_content' );
 
 ?>
+
+<p id="shop-catchword">Acheter en ligne ? Rien de plus simple !</p>
+
+<div id="how-to-shop">
+	<div class="how-to-shop-sub">
+		<p class="how-to-shop-number">1</p>
+		<div class="under-number">
+			<img src="<?php bloginfo( 'template_directory' );?>/images/shop/LOUPE.png">
+			<p>Choisis ta céramique.</p>
+		</div>
+	</div>
+
+	<div class="how-to-shop-sub">
+		<p class="how-to-shop-number">2</p>
+		<div class="under-number">
+			<img src="<?php bloginfo( 'template_directory' );?>/images/shop/panier-etape.png">
+			<p>Ajoutes-la à ton panier.</p>
+		</div>
+	</div>
+
+	<div class="how-to-shop-sub">
+		<p class="how-to-shop-number">3</p>
+		<div class="under-number">
+			<img src="<?php bloginfo( 'template_directory' );?>/images/shop/validation.png">
+			<p>Valides et commandes.</p>
+		</div>
+	</div>
+
+	<div class="how-to-shop-sub">
+		<p class="how-to-shop-number">4</p>
+		<div class="under-number">
+			<img src="<?php bloginfo( 'template_directory' );?>/images/shop/main-coeur.png">
+			<p>Reçois ta céramique !</p>
+		</div>
+	</div>
+</div>
+
 <header class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<!-- <h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1> -->
