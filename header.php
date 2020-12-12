@@ -9,7 +9,7 @@
 
 </head>
 <body <?php body_class();?> >
-	<div class="content">
+	<div class="content-lrg">
 		<div class="wrapper">
 			<header>
 				<div class="header-first-row">

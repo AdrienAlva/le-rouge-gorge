@@ -16,7 +16,7 @@ body{
 	color: rgb(65, 49, 47);
 }
 
-.content {
+.content-lrg {
   min-height: calc(100vh - 22vh);
 }
 
@@ -123,9 +123,9 @@ margin: 0;
 
 /* CONTENT */
 
-.content {
+/*.content {
 	width: 100%;
-}
+}*/
 
 /* FOOTER */
 
@@ -149,17 +149,29 @@ footer {
 }
 
 #footer-logo {
-	height: 80px !important;
+	height: 85px !important;
+	margin-top: 0.6em;
 }
 
 #footer-menu-container {
+	
+}
+
+#social-link {
 	display: flex;
-	align-items: center;
+	justify-content: center;
+}
+
+#social-link img {
+	width: 40px;
+	height: 35px;
+	margin-top: 5px;
 }
 
 .footer-menu {
 	display: flex;
 	list-style: none;
+	margin-top: 5px;
 }
 
 .footer-menu li {	
@@ -192,11 +204,18 @@ footer {
 
 /* FRONT-PAGE NEWS */
 
+#home-content {
+	display: flex;
+	justify-content: center;
+}
+
 #news-wrapper {
-	width: 60%;
+	width: 50%;
 	margin: auto;
 	margin-top: 5.5%;
 	margin-bottom: 2%;
+	margin-left: 0;
+	margin-right: 0;
 	/*background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='71' ry='71' stroke='rgb(65, 49, 47)' stroke-width='7' stroke-dasharray='8%2c 18' stroke-dashoffset='33' stroke-linecap='square'/%3e%3c/svg%3e");*/
 	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
 }
@@ -248,6 +267,12 @@ footer {
 	padding-top: 3%;
 	padding-bottom: 2%;
 	font-weight: bold;	
+}
+
+.news-col-1 .news-inner-wrap-view, .news-col-list .news-inner-wrap-view {
+	border-bottom: none !important;
+	padding-bottom: 0 !important;
+	margin-bottom: 5px !important;
 }
 
 /* BLOG HEADER */
@@ -528,8 +553,6 @@ margin-top: 0;
 	margin-left: 0;
 }
 
-
-
 /* SHOP LIST */
 
 #main {
@@ -624,7 +647,9 @@ margin-top: 0;
 	font-weight: bold !important;
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
-	padding: .3em 1em !important;
+	padding: .5em 1em !important;
+	padding-left: 0 !important;
+	padding-right: 0.2em !important;
 	color: rgb(65, 49, 47) !important;
 /*	position: absolute !important;
 	bottom: 5% !important;*/
@@ -635,7 +660,7 @@ margin-top: 0;
 	height: 20px;
 	float: right; 
 	margin-top: 0 !important;
-	margin-right: 25% !important;
+	margin-right: 5% !important;
 /*	background-color: rgb(226, 67, 32) !important;*/
 	background-color: white !important;
 	color: white !important;
@@ -644,6 +669,28 @@ margin-top: 0;
 	background-image: url("images/shop/cart-icon.png") !important;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.woocommerce #respond input#submit.added::after,.woocommerce a.button.added::after,.woocommerce button.button.added::after,.woocommerce input.button.added::after{
+	font-family:WooCommerce;
+	content:"\e017";
+	margin-left:.33em !important;
+	vertical-align:bottom
+}/* To center the check mark when product is added to cart */
+
+a.added_to_cart {display:none !important}
+
+.view-product {
+	width: 140px;
+	font-size: 1.3em;
+	text-align: center !important;
+	padding: 8px;
+	float: right; 
+	margin-top: 0 !important;
+	margin-right: 20% !important;
+	background-color: rgb(226, 67, 32) !important;
+	color: white !important;
+	border-radius: 1em !important;
 }
 
 .woocommerce-loop-product__title {
@@ -660,10 +707,15 @@ margin-top: 0;
 
 /* SINGLE PRODUCT PAGE */
 
+.woocommerce-Tabs-panel p {
+	text-align: justify;
+}
+
 .single_add_to_cart_button {
 	background-color: rgb(226, 67, 32) !important;
 	color: white !important;
 	border-radius: 1em !important;
+	margin-left: 10% !important;
 }
 
 .posted_in {
@@ -678,7 +730,17 @@ margin-top: 0;
 	color: rgb(226, 67, 32);
 }
 
+/* CART */
 
+.content {
+
+	width: 75%;
+	margin: auto;
+}
+
+.checkout-button {
+	background-color: rgb(226, 67, 32) !important;
+}
 
 
 

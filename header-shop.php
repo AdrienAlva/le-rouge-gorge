@@ -9,7 +9,7 @@
 
 </head>
 <body <?php body_class();?> >
-	<div class="content">
+	<div class="content-lrg">
 		<header id="shop-header">
 			<div id="top-shop-header">
 				<a href="/wordpress">Accueil > Boutique</a>

@@ -1,4 +1,7 @@
-<?php get_header();?>
+<?php 
+	if(!is_cart())get_header();
+	else get_header( 'shop' );
+?>
 
 <div class="content">
 
