@@ -44,11 +44,13 @@ body{
 header {
   position: relative;
   padding: 20px;
+  padding-top: 0;
   text-align: center;
 }
 
 #logo {
-	height: 100px !important;
+	height: 120px !important;
+
 }
 
 .header-column {
@@ -58,9 +60,11 @@ header {
 .header-first-row {
 	display: flex;
 	justify-content: space-between;
+	margin-left: 5%;
 }
 
 .top-menu {
+	margin-top: 35px;
 	display: flex;
 	list-style: none;
 }
@@ -119,6 +123,16 @@ margin: 0;
 	outline: none;
 }
 
+#white-arrow {
+	width: 18%;
+	position: absolute;
+	left: 40%;
+	bottom: -3%;
+}
+
+#white-arrow img {
+	width: 100%;
+}
 
 
 /* CONTENT */
@@ -199,7 +213,7 @@ footer {
 
 #legal-link-container a {
 	color: white;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 /* FRONT-PAGE NEWS */
@@ -740,6 +754,12 @@ a.added_to_cart {display:none !important}
 
 .checkout-button {
 	background-color: rgb(226, 67, 32) !important;
+}
+
+/* CHECKOUT */
+
+#place_order {
+	background-color: rgb(226, 67, 32) !important;	
 }
 
 

@@ -36,7 +36,7 @@
 					<?php echo do_shortcode('[wcas-search-form]'); ?>
 
 					<div id="my-account-block-header">
-						<a id="my-account-header" href="/wordpress">
+						<a id="my-account-header" href="/wordpress/mon-compte">
 							<img src="<?php bloginfo( 'template_directory' );?>/images/shop/MON-COMPTE.png">
 							<p>Mon compte</p>
 						</a>

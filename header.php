@@ -14,7 +14,7 @@
 			<header>
 				<div class="header-first-row">
 					
-						<a href="/wordpress"><img id="logo" src="<?php bloginfo( 'template_directory' );?>/images/logo.png"></a>
+						<a href="/wordpress"><img id="logo" src="<?php bloginfo( 'template_directory' );?>/images/header/logo-header.png"></a>
 
 						<?php 
 
@@ -32,5 +32,7 @@
 					<p>locales et éco-responsables.</p>
 					<a href="/wordpress/boutique"><button id="discover-button">Je découvre</button></a>
 				</div>
+
 			</header>
+			<div id="white-arrow"><a href="#news-wrapper"><img src="<?php bloginfo( 'template_directory' );?>/images/header/white-arrow.png"></div></a>
 		</div>

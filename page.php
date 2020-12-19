@@ -1,6 +1,9 @@
 <?php 
-	if(!is_cart())get_header();
-	else get_header( 'shop' );
+	if(!is_cart() & !is_page(array('commander', 'mon-compte'))) {
+		get_header();
+	} else {
+		get_header( 'shop' ); 
+	}
 ?>
 
 <div class="content">
