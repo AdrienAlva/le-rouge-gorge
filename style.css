@@ -313,6 +313,7 @@ footer {
 #blog-header {
   position: relative;
   padding: 20px;
+  padding-top: 0;
   text-align: center;
 }
 
@@ -338,6 +339,126 @@ margin-top: 0;
 	font-size: 2.5em;
 	margin: 0;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* ABOUT HEADER */
+
+.wrapper-about-header {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+
+.wrapper-about-header:before {
+  content: '';
+  position: absolute;
+  top: -200px;
+  left: -15%;
+  width: 130%;
+  height: 550px;
+  background: center url("images/about/about-header-background.jpg");
+  background-position: 50% -10%;
+
+  border-radius: 50%;
+}
+
+#about-header {
+  position: relative;
+  padding: 20px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.about-header-first-row {
+	display: flex;
+	justify-content: space-between;
+	color: rgb(65, 49, 47);
+	margin-left: 5%;
+}
+
+.about-header-first-row a {
+	color: rgb(65, 49, 47) !important;
+}
+
+.about-header-second-row {
+	width: 100%;
+	/*border: green solid 2px;*/
+	margin: auto;
+	font-size: 2em;
+	color: rgb(65, 49, 47);
+	text-align: center;
+}
+
+.about-header-second-row a {
+	color: rgb(65, 49, 47);
+	text-decoration: none;
+}
+
+.about-header-second-row p {
+margin-top: 0;
+}
+
+#about-title {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+/* ABOUT PAGE */
+
+#about-content {
+	margin-top: 5%;
+}
+
+#about-content-first-row {
+	display: flex;
+}
+
+#div-photo-ceramiste {
+	width: 38%;
+	margin-left: 2%;
+	padding: 3px;
+	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden!important
+}
+
+#photo-ceramiste {
+	width: 100%;
+	flex-shrink: 0;
+	/*min-width: 100%;*/
+	min-height: 100%;
+}
+
+#arrow-n-feather {
+	width: 25%;
+}
+
+#arrow-1 {
+	width: 100%;
+}
+
+#feather-1 {
+	width: 50%;
+	margin-left: 25%;
+}
+
+#div-text-ceramiste {
+	width: 33%;
+	margin-right: 2%;
+	text-align: center;
+}
+
+#div-text-ceramiste h2 {
+	font-size: 2em;
+	color: rgb(225, 67, 32);
+	font-weight: bold;
+    margin-top: 0.43em;
+}
+
+#div-text-ceramiste p {
+	font-size: 1.2em;
 }
 
 

@@ -4,7 +4,7 @@
 		<footer>
 
 			<div id="footer-logo-container">
-				<a href="/wordpress"><img id="footer-logo"src="<?php bloginfo( 'template_directory' );?>/images/footer-logo.png"></a>
+				<a href="/wordpress"><img id="footer-logo"src="<?php bloginfo( 'template_directory' );?>/images/white-logo.png"></a>
 			</div>
 
 			<div id="footer-menu-container">

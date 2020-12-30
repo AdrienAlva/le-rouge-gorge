@@ -14,7 +14,7 @@
 		<header id="blog-header">
 			<div class="header-first-row">
 				
-					<a href="/wordpress"><img id="logo" src="<?php bloginfo( 'template_directory' );?>/images/logo.png"></a>
+					<a href="/wordpress"><img id="logo" src="<?php bloginfo( 'template_directory' );?>/images/white-logo.png"></a>
 
 					<?php 
 
