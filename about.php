@@ -56,12 +56,34 @@ Template Name: About Page
 			<div id="div-text-ceramiste">
 				<h2>Là, c'est moi: Géraldine</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<img src="">
 			</div>	
 		</div>
 
+		<div id="feather-in-between">
+			<img id="feather-2" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-2">
+		</div>
+
 		<div id="about-content-second-row">
-			
+			<div id="text-n-feather">
+				<div id="feather-before-text">
+					<img id="feather-3" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-3.png">
+					<img id="feather-4" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-4.png">
+				</div>
+
+				<div id="div-text-passion">
+					<h2>Là, c'est ma passion: la céramique</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+			<div id="arrow-n-feather-2">
+				<img id="arrow-2" src="<?php bloginfo( 'template_directory' );?>/images/about/arrow-2.png">
+				<img id="feather-5" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-5.png">
+			</div>
+			<div id="div-photo-ceramique">
+				<img id="photo-ceramique" src="<?php bloginfo( 'template_directory' );?>/images/about/photo-ceramique.jpg">
+			</div>
+
 		</div>
 	</div>
 
