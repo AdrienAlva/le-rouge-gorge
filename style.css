@@ -50,7 +50,6 @@ header {
 
 #logo {
 	height: 120px !important;
-
 }
 
 .header-column {
@@ -403,6 +402,11 @@ margin-top: 0;
 	margin: 0;
 }
 
+#logo-about {
+	height: 120px !important;
+	margin-top: 10%;
+}
+
 /* ABOUT PAGE */
 
 #about-content {
@@ -544,6 +548,151 @@ margin-top: 0;
 	flex-shrink: 0;
 	/*min-width: 100%;*/
 	min-height: 100%;
+}
+
+/* LESSONS HEADER */
+
+.wrapper-lessons-header {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+
+.wrapper-lessons-header:before {
+  content: '';
+  position: absolute;
+  top: -200px;
+  left: -15%;
+  width: 130%;
+  height: 550px;
+  background: center url("images/lessons/lessons-background.jpg");
+  background-position: 50% -10%;
+  border-radius: 50%;
+}
+
+#lessons-header {
+  position: relative;
+  padding: 20px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.lessons-header-first-row {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5%;
+}
+
+.lessons-header-first-row a {
+	color: white !important;
+}
+
+.lessons-header-second-row {
+	width: 100%;
+	/*border: green solid 2px;*/
+	margin: auto;
+	font-size: 2em;
+	text-align: center;
+}
+
+.lessons-header-second-row a {
+	color: white;
+	text-decoration: none;
+}
+
+.lessons-header-second-row p {
+	margin-top: 0;
+	color: white;
+}
+
+#lessons-title {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+#logo-lessons {
+	height: 120px !important;
+	margin-top: 10%;
+}
+
+/* LESSONS PAGE */
+
+#lessons-content {
+	width: 100%;
+	margin-top: 3%;
+}
+
+#arrow-w-number {
+	width: 20%;
+}
+
+#arrow-w-number img {
+	width: 100%;
+	position: relative;
+	top: 30%;
+	left: 30%;
+}
+
+#lessons-schedule {
+	background-color: rgba( 231, 230, 230, 1);
+	width: 80%;
+	margin: auto;
+	display: flex;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+#lessons-schedule p {
+	font-size: 1.5em;
+}
+
+#schedule-texts {
+	width: 100%;
+}
+
+.center-logos {
+	width: 10%;
+}
+
+#schedule-titles {
+	display: flex;
+	width: 100%;
+}
+
+#schedule-titles h2 {
+	width: 45%;
+	color: rgb(225, 67, 32);
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+.h2-schedule-color {
+	color: rgb(65, 49, 47);
+}
+
+#blank-titles {
+	width: 10%;
+}
+
+.schedule-row {
+	width: 100%;
+	display: flex;
+	margin-top: 3%;
+}
+
+.schedule-row p {
+	width: 45%;
+}
+
+#arrow-w-number-2 {
+	width: 20%;
+}
+
+#arrow-w-number-2 img {
+	width: 100%;
+	position: relative;
+	top: 70%;
+	right: 35%;
 }
 
 /* 404 */

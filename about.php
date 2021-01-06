@@ -22,7 +22,7 @@ Template Name: About Page
 		<header id="about-header">
 			<div class="about-header-first-row">
 				
-					<a href="/wordpress"><img id="logo" src="<?php bloginfo( 'template_directory' );?>/images/header/logo-header.png"></a>
+					<a href="/wordpress"><img id="logo-about" src="<?php bloginfo( 'template_directory' );?>/images/header/logo-header.png"></a>
 
 					<?php 
 
