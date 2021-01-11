@@ -11,7 +11,7 @@ Template Name: About Page
 <head>
 	<title></title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 
 	<?php wp_head();?> 
 
@@ -22,8 +22,9 @@ Template Name: About Page
 		<header id="about-header">
 			<div class="about-header-first-row">
 				
-					<a href="/wordpress"><img id="logo-about" src="<?php bloginfo( 'template_directory' );?>/images/header/logo-header.png"></a>
+				<a href="/wordpress"><img id="logo-about" src="<?php bloginfo( 'template_directory' );?>/images/header/logo-header.png"></a>
 
+				<div id="home-menu-social">	
 					<?php 
 
 						wp_nav_menu( 
@@ -32,7 +33,11 @@ Template Name: About Page
 						);
 					
 					?>
-					
+					<div id="header-social">
+						<a href="https://www.facebook.com/LeRougeGorge.AtelierCeramique"><img id="facebook-header" src="<?php bloginfo( 'template_directory' );?>/images/footer/facebook.png"></a>
+						<a href="https://www.instagram.com/lerougegorge_atelierceramique/"><img id="instagram-header" src="<?php bloginfo( 'template_directory' );?>/images/footer/instagram.png"></a>
+					</div>					
+				</div>	
 			</div>
 			<div class="about-header-second-row">
 				<p><a href="/wordpress">Accueil</a> > Qui-suis-je</p>

@@ -11,7 +11,7 @@ Template Name: Lessons Page
 <head>
 	<title></title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 
 	<?php wp_head();?> 
 
@@ -22,8 +22,9 @@ Template Name: Lessons Page
 		<header id="lessons-header">
 			<div class="lessons-header-first-row">
 				
-					<a href="/wordpress"><img id="logo-lessons" src="<?php bloginfo( 'template_directory' );?>/images/white-logo.png"></a>
-
+				<a href="/wordpress"><img id="logo-lessons" src="<?php bloginfo( 'template_directory' );?>/images/white-logo.png"></a>
+				
+				<div id="home-menu-social">	
 					<?php 
 
 						wp_nav_menu( 
@@ -32,7 +33,11 @@ Template Name: Lessons Page
 						);
 					
 					?>
-					
+					<div id="header-social">
+						<a href="https://www.facebook.com/LeRougeGorge.AtelierCeramique"><img id="facebook-header" src="<?php bloginfo( 'template_directory' );?>/images/footer/facebook.png"></a>
+						<a href="https://www.instagram.com/lerougegorge_atelierceramique/"><img id="instagram-header" src="<?php bloginfo( 'template_directory' );?>/images/footer/instagram.png"></a>
+					</div>
+				</div>	
 			</div>
 			<div class="lessons-header-second-row">
 				<p><a href="/wordpress">Accueil</a> > Cours</p>
@@ -76,6 +81,13 @@ Template Name: Lessons Page
 			<div id="arrow-w-number-2">
 				<img src="<?php bloginfo( 'template_directory' );?>/images/lessons/arrow-2.png">
 			</div>
+		</div>
+
+		<div id="lessons-about">
+			<div id="panel-infos-lessons">
+				<p>+ D'INFOS</p>
+			</div>
+			<p id="lessons-about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 		
 	</div>

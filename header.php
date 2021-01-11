@@ -2,28 +2,37 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 
 	<?php wp_head();?> 
 
 </head>
 <body <?php body_class();?> >
 	<div class="content-lrg">
-		<div class="wrapper">
+		<div class="wrapper hide-mobile show-desktop">
 			<header>
 				<div class="header-first-row">
 					
 						<a href="/wordpress"><img id="logo" src="<?php bloginfo( 'template_directory' );?>/images/header/logo-header.png"></a>
 
-						<?php 
+						<div id="home-menu-social">
+							<?php 
 
-							wp_nav_menu( 
-								array( 'theme_location' => 'top-menu',
-										'menu_class' => 'top-menu')
-							);
-						
-						?>
+								wp_nav_menu( 
+									array( 'theme_location' => 'top-menu',
+											'menu_class' => 'top-menu')
+								);
+							
+							?>
+							<div id="header-social">
+								<a href="https://www.facebook.com/LeRougeGorge.AtelierCeramique"><img id="facebook-header" src="<?php bloginfo( 'template_directory' );?>/images/footer/facebook.png"></a>
+								<a href="https://www.instagram.com/lerougegorge_atelierceramique/"><img id="instagram-header" src="<?php bloginfo( 'template_directory' );?>/images/footer/instagram.png"></a>
+							</div>
+						</div>
+
 						
 				</div>
 				<div class="header-second-row">
@@ -34,5 +43,5 @@
 				</div>
 
 			</header>
-			<div id="white-arrow"><a href="#news-wrapper"><img src="<?php bloginfo( 'template_directory' );?>/images/header/white-arrow.png"></div></a>
+			<div id="white-arrow"><a href="#news-wrapper"><img src="<?php bloginfo( 'template_directory' );?>/images/header/white-arrow.png"></a></div>
 		</div>

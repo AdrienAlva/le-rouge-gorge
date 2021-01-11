@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 
 	<?php wp_head();?> 
 
