@@ -10,6 +10,7 @@ Template Name: About Page
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 
@@ -18,7 +19,7 @@ Template Name: About Page
 </head>
 <body <?php body_class();?> >
 
-	<div class="wrapper-about-header">
+	<div class="wrapper-about-header show-desktop hide-mobile">
 		<header id="about-header">
 			<div class="about-header-first-row">
 				
@@ -46,6 +47,14 @@ Template Name: About Page
 		</header>
 	</div>
 
+	<?php include 'responsive-navbar.php' ?>
+
+	<div id="about-background" class="show-mobile hide-desktop">
+		<div id="mobile-about-header-content">
+			<h1 id="about-title-mobile">Qui-suis-je ?</h1>
+		</div>	
+	</div>
+
 	<div id="about-content">
 
 		<div id="about-content-first-row">
@@ -53,7 +62,7 @@ Template Name: About Page
 				<img id="photo-ceramiste" src="<?php bloginfo( 'template_directory' );?>/images/about/photo-ceramiste.jpg">
 			</div>
 
-			<div id="arrow-n-feather">
+			<div id="arrow-n-feather" class="show-desktop hide-mobile">
 				<img id="arrow-1" src="<?php bloginfo( 'template_directory' );?>/images/about/arrow.png">
 				<img id="feather-1" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-1.png">
 			</div>
@@ -64,13 +73,18 @@ Template Name: About Page
 			</div>	
 		</div>
 
-		<div id="feather-in-between">
+		<div id="feather-in-between" class="show-desktop hide-mobile">
 			<img id="feather-2" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-2">
 		</div>
 
 		<div id="about-content-second-row">
+
+			<div id="div-photo-ceramique-mobile" class="show-mobile hide-desktop">
+				<img id="photo-ceramique" src="<?php bloginfo( 'template_directory' );?>/images/about/photo-ceramique.jpg">
+			</div>
+
 			<div id="text-n-feather">
-				<div id="feather-before-text">
+				<div id="feather-before-text" class="show-desktop hide-mobile">
 					<img id="feather-3" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-3.png">
 					<img id="feather-4" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-4.png">
 				</div>
@@ -81,11 +95,11 @@ Template Name: About Page
 				</div>
 			</div>
 
-			<div id="arrow-n-feather-2">
+			<div id="arrow-n-feather-2" class="show-desktop hide-mobile">
 				<img id="arrow-2" src="<?php bloginfo( 'template_directory' );?>/images/about/arrow-2.png">
 				<img id="feather-5" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-5.png">
 			</div>
-			<div id="div-photo-ceramique">
+			<div id="div-photo-ceramique" class="show-desktop hide-mobile">
 				<img id="photo-ceramique" src="<?php bloginfo( 'template_directory' );?>/images/about/photo-ceramique.jpg">
 			</div>
 

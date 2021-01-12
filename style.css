@@ -468,6 +468,10 @@ margin-top: 0;
 	overflow: hidden!important
 }
 
+#div-photo-ceramique-mobile {
+	display: none;
+}
+
 #photo-ceramiste {
 	width: 100%;
 	flex-shrink: 0;
@@ -703,7 +707,7 @@ margin-top: 0;
 	width: 45%;
 	color: rgb(225, 67, 32);
 	text-decoration: underline;
-	font-size: 2em;
+	font-size: 1.7em;
 }
 
 .h2-schedule-color {
@@ -738,7 +742,7 @@ margin-top: 0;
 #lessons-about {
 	width: 60%;
 	margin: auto;
-	margin-top: 5%;
+	margin-top: 7%;
 	margin-bottom: 5%;
 	border: solid 3px rgb(65, 49, 47);
 	text-align: center;
@@ -912,7 +916,7 @@ margin-top: 0;
 }
 
 #contact-form-button {
-	width: 20% !important;
+	width: 170px !important;
 	font-size: 0.9em;
 	margin-top: 2%;
 	background-color: rgb(226, 67, 32);
@@ -1404,7 +1408,7 @@ a.added_to_cart {display:none !important}
 
 /***** MEDIA QUERIES *****/
 
-@media (max-width: 1365px) {
+@media (min-width: 1191px) and (max-width: 1365px) {
 
 	/* DEFAULT HEADER */
 	.wrapper:before {
@@ -1425,6 +1429,24 @@ a.added_to_cart {display:none !important}
 		font-size: 2em;
 	}
 
+	/*  LESSONS PAGE */
+
+	#schedule-titles h2 {
+		font-size: 1.45em;
+	}
+
+	.schedule-row {
+		font-size: 0.9em;
+	}
+
+	.schedule-row p {
+		width: 42.5%;
+	}
+
+	.center-logos {
+		width: 15%;
+	}
+
 }/* EO @media (max-width: 1365px) */
 
 @media (max-width: 1190px) {
@@ -1434,7 +1456,7 @@ a.added_to_cart {display:none !important}
 	}
 
 	.hide-mobile {
-		display: none;
+		display: none !important;
 	}
 
 	/* RESPONSIVE NAVBAR */
@@ -1622,10 +1644,6 @@ a.added_to_cart {display:none !important}
 		width: 100%;
 	}
 
-	#home-bird img {
-		width: 100%;
-	}
-
 	#home-bird {
 		position: relative;
 		height: 150px;
@@ -1671,7 +1689,7 @@ a.added_to_cart {display:none !important}
 	footer {
 		 
 		min-height: 100px;
-		height: 400px;
+		height: 300px;
 		display: flex;
 		flex-direction: column;
 		justify-content: initial;
@@ -1679,7 +1697,9 @@ a.added_to_cart {display:none !important}
 	}
 
 	#footer-logo-container {
+		width: 100%;
 		margin-top: 10px;
+		justify-content: space-around;
 		/*margin-bottom: 10px;*/
 	}
 
@@ -1691,18 +1711,7 @@ a.added_to_cart {display:none !important}
 	#menu-footer-menu {
 		padding-left: 0;
 		text-align: center;
-		margin-bottom: 30%;
-	}
-
-	#social-link {
-		display: flex;
-		justify-content: space-around;
-		margin-top: 3%;
-		margin-bottom: 15%;
-	}
-
-	#social-link img {
-		margin-right: 0;
+		margin-bottom: 20%;
 	}
 
 	#facebook-footer {
@@ -1724,7 +1733,7 @@ a.added_to_cart {display:none !important}
 		border-right: none;
 	}
 
-	/* FRONT-PAGE NEWS */
+	/* FRONT-PAGE NEWS MOBILE */
 
 	#home-content {
 		display: flex;
@@ -1743,7 +1752,7 @@ a.added_to_cart {display:none !important}
 	}
 
 	#panel-actus {
-		font-size: 1.3em;
+		font-size: 1.2em;
 		top: -30px;
 	}
 
@@ -1755,8 +1764,241 @@ a.added_to_cart {display:none !important}
 		margin: auto;
 	}
 
+	/* LESSONS PAGE MOBILE */
 
+	#lessons-background {
+		width: 100%;
+	}
 
+	#lessons-background {
+		position: relative;
+		height: 150px;
+		overflow: hidden;
+	}
 
+	#lessons-background::before {
+		content: '';
+		position: absolute;
+		top: -150px;
+		left: -25%;
+		width: 150%;
+		height: 300px;
+		background: center url("images/lessons/lessons-background-mobile.jpg");		
+		background-position: 50% -5%;
+		border-radius: 50%;
+	}
+
+	#mobile-lessons-header-content {
+		position: relative;
+		top: 8%;
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+
+	#stage-mobile {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	#lessons-mobile {
+		margin-bottom: 80px;
+	}
+
+	#lessons-title-mobile {
+		color: white;
+		font-size: 2.5em;
+	}
+
+	.schedule-titles-mobile {
+		color: rgb(225, 67, 32);
+		text-decoration: underline;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.h2-schedule-color {
+		color: rgb(65, 49, 47);
+	}
+
+	.schedule-row {
+		justify-content: center;
+		font-size: 1.3em;
+	}
+
+	.center-logos {
+		width: 75px;
+		height: 60.375px;
+	}
+
+	.schedule-row p {
+		width: 60%;
+	}
+
+	#lessons-about {
+		width: 90%;
+		margin-top: 15%;
+		margin-bottom: 10%;
+	}
+
+	#panel-infos-lessons {
+		width: 50%;
+		font-size: 2em;
+	}
+
+	/* ABOUT PAGE MOBILE */
+
+	#about-background {
+		width: 100%;
+	}
+
+	#about-background {
+		position: relative;
+		height: 150px;
+		overflow: hidden;
+	}
+
+	#about-background::before {
+		content: '';
+		position: absolute;
+		top: -150px;
+		left: -25%;
+		width: 150%;
+		height: 300px;
+		background: center url("images/about/about-background-mobile.jpg");		
+		background-position: 50% -30%;
+		border-radius: 50%;
+	}
+
+	#mobile-about-header-content {
+		position: relative;
+		top: 8%;
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+
+	#about-title-mobile {
+		color: rgb(65, 49, 47);
+		font-size: 2.5em;
+	}
+
+	#about-content-first-row {
+		flex-direction: column;
+		margin-top: 50px;
+	}
+
+	#div-photo-ceramiste {
+		width: 90%;
+		margin: auto;
+	}
+
+	#div-text-ceramiste {
+		width: 90%;
+		margin: auto;	
+		text-align: justify;
+	}
+
+		#div-text-ceramiste h2 {
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 2em;
+	}
+
+		#about-content-second-row {
+		flex-direction: column;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	#text-n-feather {
+		width: 90%;
+		margin: auto;
+		text-align: justify;
+	}
+
+	#text-n-feather h2 {
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 2em;
+	}
+
+	#div-text-passion {
+		padding: 0;
+	}
+
+	#div-photo-ceramique-mobile {
+		width: 90%;
+		margin: auto;
+		padding: 3px;
+		background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden!important;
+		margin-top: 5%;
+	}
+
+	/* CONTACT PAGE MOBILE */
+
+	#contact-background {
+		width: 100%;
+	}
+
+	#contact-background {
+		position: relative;
+		height: 150px;
+		overflow: hidden;
+	}
+
+	#contact-background::before {
+		content: '';
+		position: absolute;
+		top: -150px;
+		left: -25%;
+		width: 150%;
+		height: 300px;
+		background: center url("images/contact/contact-background-mobile.jpg");		
+		background-position: 70% 10%;
+		border-radius: 50%;
+	}
+
+	#mobile-contact-header-content {
+		position: relative;
+		top: 8%;
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+
+	#contact-title-mobile {
+		color: rgb(65, 49, 47);
+		font-size: 2.5em;
+	}
+
+	#contact-main-container {
+		width: 90%;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	#contact-main-container-left {
+		width: 100%;
+		border-right: none;
+	}
+
+	#contact-main-container-left input {
+		width: 80%;
+	}
+
+	#contact-main-container-right {
+		width: 70%;
+		margin: auto;
+		margin-top: 40px;
+	}
+
+	#atelier-p {
+		font-size: 1.8em;
+	}
 
 }/* EO @media (max-width: 1190px) */

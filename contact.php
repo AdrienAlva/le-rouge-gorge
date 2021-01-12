@@ -9,7 +9,8 @@ Template Name: Contact Page
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Contact</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 
@@ -18,7 +19,7 @@ Template Name: Contact Page
 </head>
 <body <?php body_class();?> >
 
-	<div class="wrapper-contact-header">
+	<div class="wrapper-contact-header show-desktop hide-mobile">
 		<header id="contact-header">
 			<div class="contact-header-first-row">
 				
@@ -45,6 +46,14 @@ Template Name: Contact Page
 		</header>
 	</div>
 
+	<?php include 'responsive-navbar.php' ?>
+
+	<div id="contact-background" class="show-mobile hide-desktop">
+		<div id="mobile-contact-header-content">
+			<h1 id="contact-title-mobile">Me contacter</h1>
+		</div>	
+	</div>
+
 	<div id="contact-content">
 
 		<div id="contact-main-container">
@@ -54,6 +63,8 @@ Template Name: Contact Page
 				<?php echo do_shortcode('[contact-form-7 id="194" title="Formulaire de contact 1"]'); ?>
 			</div>
 
+			<hr class="hide-desktop show-mobile" style="width: 100%;">
+
 			<adress id="contact-main-container-right">
 				<p id="atelier-p">Mon atelier :</p>
 				<div id="contact-location">
@@ -62,6 +73,7 @@ Template Name: Contact Page
 				</div>
 
 				<div id="contact-phone">
+
 					<img src="<?php bloginfo( 'template_directory' );?>/images/contact/phone.png">
 					<p>02 37 31 40 96</p>
 				</div>
