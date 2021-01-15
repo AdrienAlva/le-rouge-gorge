@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 
@@ -10,7 +11,7 @@
 </head>
 <body <?php body_class();?> >
 
-	<div class="wrapper-blog-header">
+	<div class="wrapper-blog-header show-desktop hide-mobile">
 		<header id="blog-header">
 			<div class="header-first-row">
 				
@@ -36,6 +37,14 @@
 				<h1 id="blog-title"><a href="/wordpress/blog">MON BLOG</a></h1>				
 			</div>
 		</header>
+	</div>
+
+	<?php include 'responsive-navbar.php' ?>
+
+	<div id="blog-background" class="show-mobile hide-desktop">
+		<div id="mobile-blog-header-content">
+			<h1 id="blog-title-mobile"> MON BLOG</h1>
+		</div>	
 	</div>
 
 	<div id="blog-feed">

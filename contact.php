@@ -10,7 +10,7 @@ Template Name: Contact Page
 <html>
 <head>
 	<title>Contact</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 

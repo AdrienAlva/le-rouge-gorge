@@ -30,9 +30,9 @@ do_action( 'woocommerce_before_main_content' );
 
 ?>
 
-<p id="shop-catchword">Acheter en ligne ? Rien de plus simple !</p>
+<p id="shop-catchword" class="show-desktop hide-mobile">Acheter en ligne ? Rien de plus simple !</p>
 
-<div id="how-to-shop">
+<div id="how-to-shop" class="show-desktop hide-mobile">
 	<div class="how-to-shop-sub">
 		<p class="how-to-shop-number">1</p>
 		<div class="under-number">

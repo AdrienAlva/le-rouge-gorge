@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 
@@ -10,7 +11,7 @@
 </head>
 <body <?php body_class();?> >
 
-	<div class="wrapper-blog-header">
+	<div class="wrapper-blog-header show-desktop hide-mobile">
 		<header id="blog-header">
 			<div class="header-first-row">
 				
@@ -38,16 +39,19 @@
 		</header>
 	</div>
 
+	<?php include 'responsive-navbar.php' ?>
+
+	<div id="blog-background" class="show-mobile hide-desktop">
+		<div id="mobile-blog-header-content">
+			<h1 id="blog-title-mobile"> MON BLOG</h1>
+		</div>	
+	</div>
+
 	<div id="single-post-content">
 
 		<h2><?php the_title();?></h2>	
 		<p id="author-date"> Par Géraldine Rodrigues le <?php echo get_the_date();?></p>
-		<!-- <?php if(has_post_thumbnail()):?>
-			<div id="post-img-wrapper">
-				<img src="<?php the_post_thumbnail_url( 'post_image');?>" alt="<?php the_title();?>">
-			</div>
-		<?php endif;?>
- -->
+
 		<?php if(have_posts()) : while(have_posts()) : the_post();?>
 		
 			<?php the_content();?>
