@@ -20,6 +20,8 @@ function load_javascript(){
 add_action( 'wp_enqueue_scripts', 'load_javascript' );
 //END
 
+// Suppr la version de wordpress dans le header.
+remove_action("wp_head", "wp_generator");
 
 // Add support
 add_theme_support( 'menus' );
@@ -37,15 +39,6 @@ register_nav_menus(
 // Add image sizes
 add_image_size( 'post_image', 500, 375, false ); //false = crop l'image ou non.
 
-
-// Add a widget
-register_sidebar( array( 
-	'name'=> 'Page Sidebar',
-	'id' => 'page-sidebar',
-	'class' => '',
-	'before_title' => '<h4>',
-	'after_title' => '</h4>'						 
-));
 
 // Adjusting "the_excerpt" value 
 function wpdocs_custom_excerpt_length( $length ) {
