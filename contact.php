@@ -9,7 +9,7 @@ Template Name: Contact Page
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
+	<title><?php wp_title(''); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
@@ -69,7 +69,7 @@ Template Name: Contact Page
 				<p id="atelier-p">Mon atelier :</p>
 				<div id="contact-location">
 					<img src="<?php bloginfo( 'template_directory' );?>/images/contact/location.png">
-					<p>BetaMachine<br/>15 Rue Victor Gilbert,<br/>28000 Chartres</p>
+					<p><a href="https://www.betamachine.fr/">BetaMachine</a><br/>15 Rue Victor Gilbert<br/>28000 Chartres</p>
 				</div>
 
 				<div id="contact-phone">

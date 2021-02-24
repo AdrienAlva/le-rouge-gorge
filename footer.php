@@ -1,5 +1,5 @@
 		</div><!-- EO .content div -->
-		<p id="made-with-love">La céramique créee avec ♡ à Chartres par @rougegorgecéramique2020</p>
+		<p id="made-with-love">La céramique créee avec <span id="coeur">♡</span> à Chartres par Géraldine Rodrigues.</p>
 
 		<footer>
 
@@ -25,7 +25,7 @@
 			</div>	
 
 			<div id="legal-link-container">
-				<a href="">Mentions légales</a>
+				<a href="/wordpress/mentions-legales">Mentions légales</a>
 			</div>
 
 		</footer>

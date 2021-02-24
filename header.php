@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title><?php wp_title(''); ?><?php if(is_front_page()){?>Accueil <?php } ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet"> -->
 	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 
 	<?php wp_head();?> 
@@ -43,5 +42,5 @@
 				</div>
 
 			</header>
-			<div id="white-arrow"><a href="#news-wrapper"><img src="<?php bloginfo( 'template_directory' );?>/images/header/white-arrow.png"></a></div>
+			<div id="white-arrow"><a href="#white-arrow"><img src="<?php bloginfo( 'template_directory' );?>/images/header/white-arrow.png"></a></div>
 		</div>

@@ -9,7 +9,7 @@ Template Name: About Page
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title><?php wp_title(''); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
@@ -74,7 +74,7 @@ Template Name: About Page
 		</div>
 
 		<div id="feather-in-between" class="show-desktop hide-mobile">
-			<img id="feather-2" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-2">
+			<img id="feather-2" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-2.png">
 		</div>
 
 		<div id="about-content-second-row">
