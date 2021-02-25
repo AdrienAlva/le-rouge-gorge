@@ -44,7 +44,7 @@ body{
 	left: -15%;
 	width: 130%;
 	height: 900px;
-	background: center url("images/rgback1.jpg");
+	background: center url("images/header/rgback1.jpg");
 	background-position: 50% -10%;
 	border-radius: 50%;
 }
@@ -2150,8 +2150,6 @@ a.added_to_cart {display:none !important}
 	.tabs li a {
 		width: 100% !important;
 	}
-
-
 
 }/* EO @media (max-width: 1190px) */
 
