@@ -23,7 +23,7 @@ Template Name: About Page
 		<header id="about-header">
 			<div class="about-header-first-row">
 				
-				<a href="/wordpress"><img id="logo-about" src="<?php bloginfo( 'template_directory' );?>/images/header/logo-header.png"></a>
+				<a href="/wordpress"><img id="logo-about" src="<?php bloginfo( 'template_directory' );?>/images/white-logo.png"></a>
 
 				<div id="home-menu-social">	
 					<?php 
@@ -68,8 +68,9 @@ Template Name: About Page
 			</div>
 
 			<div id="div-text-ceramiste">
-				<h2>Là, c'est moi: Géraldine</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<!-- <h2>Là, c'est moi: Géraldine</h2> -->
+				<p>Installée en résidence à BetaMachine, tiers-lieu singulier implanté au cœur de la ville de Chartres, je produits dans mon atelier des pièces uniques en grès clair, en terre chamottée, ainsi qu’en porcelaine. 
+				Ces matières vivantes et exigeantes, offrent des expériences sensorielles sensibles et complexes. Elles me poussent à la recherche de lignes et de formes simples, propres à chacune d’elles. Les arts de la table constituent ma principale source d’inspiration dans cette recherche de créations originales.</p>
 			</div>	
 		</div>
 
@@ -90,8 +91,11 @@ Template Name: About Page
 				</div>
 
 				<div id="div-text-passion">
-					<h2>Là, c'est ma passion: la céramique</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<!-- 					<h2>Là, c'est ma passion: la céramique</h2>
+ -->					
+ 					<p>La découverte de la céramique en cours de loisir a été décisive et définit parfaitement le rapport que j’entretiens à la matière : un émerveillement constant et durable. Ce contact direct, sans détour, est essentiel dans mon approche. L’écoute, l’attention portée aux détails, l’humilité face à la terre, requiert un travail de tous les instants. Cette matière demande une grande exigence technique et une mise en pratique d’un savoir-faire que j’aime développer et améliorer au quotidien.
+					Issue d’un milieu universitaire, j’ai d’abords acquis des connaissances en Histoire de l’art et du Cinéma. Mon enseignement terminé, je me suis tournée vers le monde l’exploitation cinématographique, et ce dans différentes structures.
+					J’ai en parallèle suivi des cours au sein de l’Atelier Setsuko à Paris pendant 2 ans, puis validé ma formation professionnelle à l’Atelier Chemin de Terre à Montreuil.</p>
 				</div>
 			</div>
 

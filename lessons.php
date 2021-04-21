@@ -69,21 +69,24 @@ Template Name: Lessons Page
 				</div>
 
 				<div class="schedule-row">
-					<p>Les lundis et jeudis</p>
+					<p>Sur RDV (prochainement)</p>
 					<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/calendar.png">
-					<p>Les mardis et samedis</p>
+					<p>Sur RDV (prochainement)</p>
 				</div>
 
 				<div class="schedule-row">
-					<p>De 15h à 18h</p>
+					<p>Durée : 3h/semaine</p>
 					<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/clock.png">
-					<p>De 15h à 18h</p>
+					<p>Durée : 4h</p>
 				</div>	
 
 				<div class="schedule-row">
-					<p>30€/séance</p>
+					<p>80€/séance</p>
 					<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/bubble.png">
-					<p>20€/séance</p>
+					<p>Possibilité de réserver au trimestre,
+					<br> soit 10 semaines de cours
+					<br>
+					Prix : 50€/ séance de 3h <br> 450€ les 10 séances</p>
 				</div>				
 			</div>
 
@@ -101,17 +104,17 @@ Template Name: Lessons Page
 					<h2 class="schedule-titles-mobile"><span class="h2-schedule-color">STAGE D'INITIATION</span></h2>
 
 					<div class="schedule-row">
-						<p>Les lundis et jeudis</p>
+						<p>Sur RDV (prochainement)</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/calendar.png">
 					</div>
 
 					<div class="schedule-row">
-						<p>De 15h à 18h</p>
+						<p>Durée : 3h/semaine</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/clock.png">
 					</div>	
 
 					<div class="schedule-row">
-						<p>30€/séance</p>
+						<p>80€/séance</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/bubble.png">
 					</div>	
 				</div>
@@ -120,17 +123,18 @@ Template Name: Lessons Page
 					<h2 class="schedule-titles-mobile"><span class="h2-schedule-color">COURS HEBDOMADAIRES</span></h2>
 
 					<div class="schedule-row">
-						<p>Les mardis et samedis</p>
+						<p>Sur RDV (prochainement)</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/calendar.png">
 					</div>
 
 					<div class="schedule-row">
-						<p>De 15h à 18h</p>
+						<p>Durée : 4h</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/clock.png">	
 					</div>	
 
 					<div class="schedule-row">
-						<p>20€/séance</p>
+						<p>Possibilité de réserver au trimestre, soit 10 semaines de cours<br>
+						Prix : 50€/ séance de 3h – 450€ les 10 séances</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/bubble.png">
 					</div>	
 
@@ -144,7 +148,9 @@ Template Name: Lessons Page
 			<div id="panel-infos-lessons">
 				<p>+ D'INFOS</p>
 			</div>
-			<p id="lessons-about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p id="lessons-about-text">Les cours d’initiations permettent d’expérimenter une première approche de la céramique, en réalisant des formes simples. Elles donnent à toucher et à apprivoiser cette matière organique.
+			Sur un rythme plus régulier, l’apprentissage se fera autour de différentes techniques et la création de formes diverses, parfois plus libres. Tout en réalisant vos propres pièces, les cours au trimestre permettent d’acquérir une réelle autonomie dans son apprentissage à l’atelier.
+			Si vous avez des questions, n’hésitez à envoyer un mail via le formulaire de contact.</p>
 		</div>
 		
 	</div>

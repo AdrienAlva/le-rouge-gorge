@@ -36,8 +36,8 @@
 				</div>
 				<div class="header-second-row">
 					<h1 id="atelier-title">At<span class="red-letters">e</span>lier cér<span class="red-letters">a</span>mique</h1>
-					<p>Créations artisanales, artistiques,</p>
-					<p>locales et éco-responsables.</p>
+					<p>Créations artisanales, artistiques</p>
+					<p>et locales.</p>
 					<a href="/wordpress/boutique"><button id="discover-button">Je découvre</button></a>
 				</div>
 
