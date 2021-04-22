@@ -74,7 +74,7 @@ Template Name: Contact Page
 
 				<div id="contact-phone">
 
-					<img src="<?php bloginfo( 'template_directory' );?>/images/contact/phone.png">
+					<img src="<?php bloginfo( 'template_directory' );?>/images/contact/mail.png">
 					<p>contact@atelier-rougegorge.fr</p>
 				</div>
 

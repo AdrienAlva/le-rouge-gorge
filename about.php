@@ -23,7 +23,7 @@ Template Name: About Page
 		<header id="about-header">
 			<div class="about-header-first-row">
 				
-				<a href="/wordpress"><img id="logo-about" src="<?php bloginfo( 'template_directory' );?>/images/white-logo.png"></a>
+				<a href="/wordpress"><img id="logo-about" src="<?php bloginfo( 'template_directory' );?>/images/header/logo-header.png"></a>
 
 				<div id="home-menu-social">	
 					<?php 
@@ -69,7 +69,7 @@ Template Name: About Page
 
 			<div id="div-text-ceramiste">
 				<!-- <h2>Là, c'est moi: Géraldine</h2> -->
-				<p>Installée en résidence à BetaMachine, tiers-lieu singulier implanté au cœur de la ville de Chartres, je produits dans mon atelier des pièces uniques en grès clair, en terre chamottée, ainsi qu’en porcelaine. 
+				<p>Installée en résidence à <a href="https://www.betamachine.fr/">BetaMachine</a>, tiers-lieu singulier implanté au cœur de la ville de Chartres, je produits dans mon atelier des pièces uniques en grès clair, en terre chamottée, ainsi qu’en porcelaine. 
 				Ces matières vivantes et exigeantes, offrent des expériences sensorielles sensibles et complexes. Elles me poussent à la recherche de lignes et de formes simples, propres à chacune d’elles. Les arts de la table constituent ma principale source d’inspiration dans cette recherche de créations originales.</p>
 			</div>	
 		</div>
@@ -95,7 +95,7 @@ Template Name: About Page
  -->					
  					<p>La découverte de la céramique en cours de loisir a été décisive et définit parfaitement le rapport que j’entretiens à la matière : un émerveillement constant et durable. Ce contact direct, sans détour, est essentiel dans mon approche. L’écoute, l’attention portée aux détails, l’humilité face à la terre, requiert un travail de tous les instants. Cette matière demande une grande exigence technique et une mise en pratique d’un savoir-faire que j’aime développer et améliorer au quotidien.
 					Issue d’un milieu universitaire, j’ai d’abords acquis des connaissances en Histoire de l’art et du Cinéma. Mon enseignement terminé, je me suis tournée vers le monde l’exploitation cinématographique, et ce dans différentes structures.
-					J’ai en parallèle suivi des cours au sein de l’Atelier Setsuko à Paris pendant 2 ans, puis validé ma formation professionnelle à l’Atelier Chemin de Terre à Montreuil.</p>
+					J’ai en parallèle suivi des cours au sein de <a href="https://ateliersetsuko.com/">l'Atelier Setsuko</a> à Paris pendant 2 ans, puis validé ma formation professionnelle à l’Atelier Chemin de Terre à Montreuil.</p>
 				</div>
 			</div>
 

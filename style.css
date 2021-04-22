@@ -44,7 +44,7 @@ body{
 	left: -15%;
 	width: 130%;
 	height: 900px;
-	background: center url("images/header/rgback1.jpg");
+	background: center url("images/header/home-header.jpg");
 	background-position: 50% 45%;
 	border-radius: 50%;
 }
@@ -170,6 +170,7 @@ margin: 0;
 #made-with-love {
 	text-align: center;
 	font-size: 1.5em;
+	margin-bottom: 5px;
 }
 
 #coeur {
@@ -379,7 +380,8 @@ footer {
 }
 
 .blog-header-second-row p {
-margin-top: 0;
+	margin-top: 0;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #blog-title {
@@ -418,13 +420,11 @@ margin-top: 0;
 .about-header-first-row {
 	display: flex;
 	justify-content: space-between;
-	/*color: rgb(65, 49, 47);*/
-	color: white;
+	/*color: white;*/
 	margin-left: 5%;
 }
 
 .about-header-first-row a {
-	/*color: rgb(65, 49, 47) !important;*/
 	color: white !important;
 }
 
@@ -435,13 +435,14 @@ margin-top: 0;
 	margin-top: 7%;
 	font-size: 2em;
 /*	color: rgb(65, 49, 47);*/
-	color: white !important;
+	/*color: white !important;*/
 	text-align: center;
-}
+/*	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+*/}
 
 .about-header-second-row a {
-/*	color: rgb(65, 49, 47);*/
-	color: white !important;
+	color: rgb(65, 49, 47);
+/*	color: white !important;*/
 	text-decoration: none;
 }
 
@@ -463,18 +464,24 @@ margin-top: 0;
 
 #about-content {
 	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#about-content a {
+	color: rgb(226, 67, 32);
 }
 
 #about-content-first-row {
 	display: flex;
+	justify-content: center;
 }
 
 #div-photo-ceramiste {
-	width: 30%;
+	width: 25%;
 	margin-left: 2%;
 	padding: 3px;
-	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
-	display: flex;
+/*	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+*/	display: flex;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden!important
@@ -487,8 +494,7 @@ margin-top: 0;
 #photo-ceramiste {
 	width: 100%;
 	flex-shrink: 0;
-	/*min-width: 100%;*/
-	min-height: 100%;
+	border: dashed rgb(65, 49, 47) 5px;
 }
 
 #arrow-n-feather {
@@ -500,6 +506,7 @@ margin-top: 0;
 
 #arrow-1 {
 	width: 100%;
+	margin-top: 15%;
 }
 
 #feather-1 {
@@ -508,9 +515,9 @@ margin-top: 0;
 }
 
 #div-text-ceramiste {
-	width: 46%;
+	width: 30%;
 	margin-right: 2%;
-	padding-top: 2%;
+	margin-left: 2%;
 	text-align: center;
 }
 
@@ -522,7 +529,7 @@ margin-top: 0;
 }
 
 #div-text-ceramiste p {
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 #feather-in-between {
@@ -537,6 +544,7 @@ margin-top: 0;
 
 #about-content-second-row {
 	display: flex;
+	justify-content: center;
 	margin-top: 2%;
 }
 
@@ -563,7 +571,7 @@ margin-top: 0;
 }
 
 #div-text-passion p {
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 #div-text-passion {
@@ -589,11 +597,11 @@ margin-top: 0;
 }
 
 #div-photo-ceramique {
-	width: 30%;
+	width: 25%;
 	margin-right: 2%;
 	padding: 3px;
-	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
-	display: flex;
+/*	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+*/	display: flex;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden!important;
@@ -603,8 +611,7 @@ margin-top: 0;
 #photo-ceramique {
 	width: 100%;
 	flex-shrink: 0;
-	/*min-width: 100%;*/
-	min-height: 100%;
+	border: dashed rgb(65, 49, 47) 5px;
 }
 
 /* LESSONS HEADER */
@@ -622,7 +629,7 @@ margin-top: 0;
   left: -15%;
   width: 130%;
   height: 550px;
-  background: center url("images/lessons/CP0A1964.jpg");
+  background: center url("images/lessons/lessons-header.jpg");
   background-position: 50% 50%;
   border-radius: 50%;
 }
@@ -646,10 +653,10 @@ margin-top: 0;
 
 .lessons-header-second-row {
 	width: 100%;
-	/*border: green solid 2px;*/
 	margin: auto;
 	font-size: 2em;
 	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .lessons-header-second-row a {
@@ -684,10 +691,10 @@ margin-top: 0;
 }
 
 #arrow-w-number img {
-	width: 100%;
+	width: 115%;
 	position: relative;
-	top: 30%;
-	left: 30%;
+	top: 18%;
+	left: 12%;
 }
 
 #lessons-schedule {
@@ -709,6 +716,7 @@ margin-top: 0;
 
 .center-logos {
 	width: 10%;
+	height: 10%;
 }
 
 #schedule-titles {
@@ -720,7 +728,7 @@ margin-top: 0;
 	width: 45%;
 	color: rgb(225, 67, 32);
 	text-decoration: underline;
-	font-size: 1.7em;
+	font-size: 1.6em;
 }
 
 .h2-schedule-color {
@@ -741,22 +749,26 @@ margin-top: 0;
 	width: 45%;
 }
 
+/*#schedule-texts .schedule-row:nth-of-type(4) img {
+	margin-top: 0%;
+}*/
+
 #arrow-w-number-2 {
 	width: 20%;
 }
 
 #arrow-w-number-2 img {
-	width: 100%;
+	width: 115%;
 	position: relative;
-	top: 80%;
-	right: 15%;
+	top: 75%;
+	right: 18%;
 }
 
 #lessons-about {
 	width: 60%;
 	margin: auto;
 	margin-top: 7%;
-	margin-bottom: 5%;
+	margin-bottom: 6%;
 	border: solid 3px rgb(65, 49, 47);
 	text-align: center;
 	padding-left: 2%;
@@ -830,20 +842,21 @@ margin-top: 0;
 
 .contact-header-second-row {
 	width: 100%;
-	/*border: green solid 2px;*/
 	margin: auto;
 	font-size: 2em;
 	text-align: center;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .contact-header-second-row a {
-	color: rgb(65, 49, 47);
+	color: white;
 	text-decoration: none;
 }
 
 .contact-header-second-row p {
 	margin-top: 0;
-	color: rgb(65, 49, 47);
+	color: white;
 }
 
 #contact-title {
@@ -943,7 +956,7 @@ margin-top: 0;
 }
 
 #contact-main-container-right {
-	width: 40%;
+	width: 60%;
 	font-weight: bold;
 }
 
@@ -1001,7 +1014,7 @@ margin-top: 0;
 }
 
 #desktop-art img {
-	width: 100%;
+	width: 80%;
 }
 
 
@@ -1120,10 +1133,7 @@ margin-top: 0;
 	height: 80%;
 	width: 100%;
 	background-color: rgb(206, 195, 194);
-	display: flex;
-	
-	/*line-height: 12.6vh;
-	white-space: nowrap;*/	
+	display: flex;	
 }
 
 .menu-top-menu-shop-container {
@@ -1131,7 +1141,6 @@ margin-top: 0;
 	height: 100%;
 	display: flex;	
 	margin-right: 0 !important;
-	/*box-sizing:border-box;*/
 }
 
 .top-menu-shop {
@@ -1144,7 +1153,6 @@ margin-top: 0;
 
 .top-menu-shop li {	
 	border-right: rgb(225, 67, 32) solid 3px;
-
 }
 
 .top-menu-shop li:last-child {	
@@ -1160,8 +1168,9 @@ margin-top: 0;
 
 #main-logo-shop {
 	width: 150px;
-	height: 112px;
+	height: 100px;
 	display: block;
+	margin-top: 0.55%;
 }
 
 #main-logo-shop img {
@@ -1366,6 +1375,7 @@ a.added_to_cart {display:none !important}
 	float: right; 
 	margin-top: 0 !important;
 	margin-right: 20% !important;
+	margin-left: 15%;
 	background-color: rgb(226, 67, 32) !important;
 	color: white !important;
 	border-radius: 1em !important;
@@ -1445,8 +1455,8 @@ a.added_to_cart {display:none !important}
 
 	/* DEFAULT HEADER */
 	.wrapper:before {
-		background: center url("images/header/header-res1366.jpg");
-		background-position: 50% 145%;
+		background: center url("images/header/home-header.jpg");
+		background-position: 50% 50%;
 	}
 
 	#atelier-title {
@@ -1465,7 +1475,7 @@ a.added_to_cart {display:none !important}
 	/*  LESSONS PAGE */
 
 	#schedule-titles h2 {
-		font-size: 1.45em;
+		font-size: 1.40em;
 	}
 
 	.schedule-row {
@@ -1710,8 +1720,8 @@ a.added_to_cart {display:none !important}
 		left: -25%;
 		width: 150%;
 		height: 300px;
-		background: center url("images/header/rgback-mobile.jpg");
-		background-position: 50% 0%;
+		background: center url("images/header/home-header-mobile.jpg");
+		background-position: 50% 39%;
 		border-radius: 50%;
 	}
 
@@ -1723,7 +1733,8 @@ a.added_to_cart {display:none !important}
 	}
 
 	#atelier-title {
-		line-height: 30px;
+		line-height: 26px;
+		font-size: 2.3em;
 	}
 
 	#discover-button {
@@ -1836,8 +1847,8 @@ a.added_to_cart {display:none !important}
 		left: -25%;
 		width: 150%;
 		height: 300px;
-		background: center url("images/lessons/lessons-background-mobile.jpg");		
-		background-position: 50% -5%;
+		background: center url("images/lessons/lessons-header-mobile.jpg");		
+		background-position: 50% 35%;
 		border-radius: 50%;
 	}
 
@@ -1918,8 +1929,8 @@ a.added_to_cart {display:none !important}
 		left: -25%;
 		width: 150%;
 		height: 300px;
-		background: center url("images/about/about-background-mobile.jpg");		
-		background-position: 50% -30%;
+		background: center url("images/about/about-header-mobile.jpg");		
+		background-position: 50% 30%;
 		border-radius: 50%;
 	}
 
@@ -1957,6 +1968,11 @@ a.added_to_cart {display:none !important}
 		text-align: center;
 		margin-bottom: 20px;
 		font-size: 2em;
+	}
+
+	#div-text-ceramiste p {
+		font-size: 1.2em;
+		width: 100%;
 	}
 
 	#about-content-second-row {
@@ -2012,8 +2028,8 @@ a.added_to_cart {display:none !important}
 		left: -25%;
 		width: 150%;
 		height: 300px;
-		background: center url("images/contact/contact-background-mobile.jpg");		
-		background-position: 70% 60%;
+		background: center url("images/contact/contact-header-mobile.jpg");		
+		background-position: 50% 42%;
 		border-radius: 50%;
 	}
 
@@ -2026,8 +2042,10 @@ a.added_to_cart {display:none !important}
 	}
 
 	#contact-title-mobile {
-		color: rgb(65, 49, 47);
+		color: white;
 		font-size: 2.5em;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 	}
 
 	#contact-main-container {
@@ -2046,7 +2064,7 @@ a.added_to_cart {display:none !important}
 	}
 
 	#contact-main-container-right {
-		width: 70%;
+		width: 100%;
 		margin: auto;
 		margin-top: 40px;
 	}
@@ -2054,6 +2072,11 @@ a.added_to_cart {display:none !important}
 	#atelier-p {
 		font-size: 1.8em;
 	}
+
+	#desktop-art img {
+		width: 90%;
+	}
+
 
 	/* BLOG PAGE MOBILE */
 

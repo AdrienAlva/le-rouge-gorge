@@ -24,7 +24,7 @@
 				);
 			?> 
 
-			<a id="main-logo-shop" href="/wordpress"><img src="<?php bloginfo( 'template_directory' );?>/images/main-logo.png"></a>
+			<a id="main-logo-shop" href="/wordpress"><img src="<?php bloginfo( 'template_directory' );?>/images/shop/shop-logo.png"></a>
 
 
 
