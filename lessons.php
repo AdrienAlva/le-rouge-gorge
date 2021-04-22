@@ -55,6 +55,10 @@ Template Name: Lessons Page
 		</div>	
 	</div>
 
+	<div id="lessons-coming-soon">
+		<p>Bientôt disponible...</p>
+	</div>
+
 	<div id="lessons-content">
 		<div id="lessons-schedule" class="show-desktop hide-mobile">
 			<div id="arrow-w-number">

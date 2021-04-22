@@ -26,6 +26,9 @@
 
 			<div id="legal-link-container">
 				<a href="/wordpress/mentions-legales">Mentions légales</a>
+				<p>Développement web: <a href="https://adrienalva.github.io/page-projets-dev/">Adrien Alvarez-Vanhard</a></p>
+				<p>Webdesign: <a href="#">Anna Rebuffo</a></p>
+				<p>Photos: <a href="http://imag-inbox.fr/">Sylvie Rodrigues</a></p>
 			</div>
 
 		</footer>
