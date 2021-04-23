@@ -141,6 +141,4 @@ Template Name: Legal Page
 		<br>
 		<br>
 
-
-
 <?php get_footer();?>

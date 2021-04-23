@@ -1,7 +1,5 @@
 <div class="responsive-navbar hide-desktop show-mobile">
 
-  <!-- <div id="blank-navbar"></div> -->
-
   <?php 
     if(is_woocommerce() || is_page(array('commander', 'mon-compte', 'panier'))) { ?>
       <a id="cart-logo-navbar" href="/wordpress/panier">

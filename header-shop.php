@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-2Z2VMMHDWT"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-2Z2VMMHDWT');
+		</script>
 		<title><?php wp_title(''); ?></title>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
 
 		<?php wp_head();?> 
@@ -30,8 +38,6 @@
 
 			<div id="search-and-icons">
 
-				<!-- <input type="search" id="shop-search" name="q" aria-label="Rechercher dans la boutique" placeholder=" Rechercher..."> -->
-
 				<?php echo do_shortcode('[wcas-search-form]'); ?>
 
 				<div id="my-account-block-header">
@@ -56,5 +62,4 @@
 		<div class="content-lrg">
 			<div id="mobile-search-bar" class="show-mobile hide-desktop">
 				<?php echo do_shortcode('[wcas-search-form]'); ?>	
-			</div>
-			
+			</div>		

@@ -115,13 +115,4 @@ function woocommerce_custom_product_add_to_cart_text() {
     return __( '', 'woocommerce' );
 }
 
-/*add_action( 'template_redirect', 'rp_callback' ); 
-function rp_callback() {
-  if ( is_cart()) {
-    get_header( 'shop' );
-  }
-}*/
-
-
-
 ?>

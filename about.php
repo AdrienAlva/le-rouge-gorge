@@ -9,7 +9,16 @@ Template Name: About Page
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2Z2VMMHDWT"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-2Z2VMMHDWT');
+	</script>
 	<title><?php wp_title(''); ?></title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="https://use.typekit.net/cle1xfo.css">
@@ -59,7 +68,7 @@ Template Name: About Page
 
 		<div id="about-content-first-row">
 			<div id="div-photo-ceramiste">
-				<img id="photo-ceramiste" src="<?php bloginfo( 'template_directory' );?>/images/about/photo-ceramiste.jpg">
+				<img id="photo-ceramiste" src="<?php bloginfo( 'template_directory' );?>/images/about/photo-ceramiste.jpg" alt="Geraldine Rodirgues céramiste">
 			</div>
 
 			<div id="arrow-n-feather" class="show-desktop hide-mobile">
@@ -68,7 +77,6 @@ Template Name: About Page
 			</div>
 
 			<div id="div-text-ceramiste">
-				<!-- <h2>Là, c'est moi: Géraldine</h2> -->
 				<p>Installée en résidence à <a href="https://www.betamachine.fr/">BetaMachine</a>, tiers-lieu singulier implanté au cœur de la ville de Chartres, je produits dans mon atelier des pièces uniques en grès clair, en terre chamottée, ainsi qu’en porcelaine. 
 				Ces matières vivantes et exigeantes, offrent des expériences sensorielles sensibles et complexes. Elles me poussent à la recherche de lignes et de formes simples, propres à chacune d’elles. Les arts de la table constituent ma principale source d’inspiration dans cette recherche de créations originales.</p>
 			</div>	
@@ -90,9 +98,7 @@ Template Name: About Page
 					<img id="feather-4" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-4.png">
 				</div>
 
-				<div id="div-text-passion">
-					<!-- 					<h2>Là, c'est ma passion: la céramique</h2>
- -->					
+				<div id="div-text-passion">					
  					<p>La découverte de la céramique en cours de loisir a été décisive et définit parfaitement le rapport que j’entretiens à la matière : un émerveillement constant et durable. Ce contact direct, sans détour, est essentiel dans mon approche. L’écoute, l’attention portée aux détails, l’humilité face à la terre, requiert un travail de tous les instants. Cette matière demande une grande exigence technique et une mise en pratique d’un savoir-faire que j’aime développer et améliorer au quotidien.
 					Issue d’un milieu universitaire, j’ai d’abords acquis des connaissances en Histoire de l’art et du Cinéma. Mon enseignement terminé, je me suis tournée vers le monde l’exploitation cinématographique, et ce dans différentes structures.
 					J’ai en parallèle suivi des cours au sein de <a href="https://ateliersetsuko.com/">l'Atelier Setsuko</a> à Paris pendant 2 ans, puis validé ma formation professionnelle à l’Atelier Chemin de Terre à Montreuil.</p>
@@ -104,7 +110,7 @@ Template Name: About Page
 				<img id="feather-5" src="<?php bloginfo( 'template_directory' );?>/images/about/feather-5.png">
 			</div>
 			<div id="div-photo-ceramique" class="show-desktop hide-mobile">
-				<img id="photo-ceramique" src="<?php bloginfo( 'template_directory' );?>/images/about/photo-ceramique.jpg">
+				<img id="photo-ceramique" src="<?php bloginfo( 'template_directory' );?>/images/about/photo-ceramique.jpg" alt="tournage céramique">
 			</div>
 
 		</div>

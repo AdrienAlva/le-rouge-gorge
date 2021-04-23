@@ -8,7 +8,6 @@ Description: Thème pour le site internet de l'atelier de céramique Le rouge Go
 /* DESKTOP*/
 
 html {
-	/*font-family: 'Questrial', sans-serif;*/
 	font-family: myriad-pro-regular, sans-serif;
 }
 
@@ -118,7 +117,7 @@ header {
 }
 
 .header-second-row p {
-margin: 0;
+	margin: 0;
 }
 
 #atelier-title {
@@ -158,13 +157,6 @@ margin: 0;
 	width: 100%;
 }
 
-
-/* CONTENT */
-
-/*.content {
-	width: 100%;
-}*/
-
 /* FOOTER */
 
 #made-with-love {
@@ -194,10 +186,6 @@ footer {
 #footer-logo {
 	height: 85px !important;
 	margin-top: 0.6em;
-}
-
-#footer-menu-container {
-	
 }
 
 #social-link {
@@ -238,7 +226,6 @@ footer {
 }
 
 .footer-menu li a{
-	
 	margin: 0 30px;
 	color: white;
 	text-decoration: none;
@@ -281,7 +268,6 @@ footer {
 	margin-bottom: 2%;
 	margin-left: 0;
 	margin-right: 0;
-	/*background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='71' ry='71' stroke='rgb(65, 49, 47)' stroke-width='7' stroke-dasharray='8%2c 18' stroke-dashoffset='33' stroke-linecap='square'/%3e%3c/svg%3e");*/
 	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
 }
 
@@ -324,7 +310,6 @@ footer {
 	background-color: rgb(226, 67, 32);
 	text-align: center;
 	font-size: 2.5em;
-	/*transform: skew(-10deg);*/
 }
 
 #panel-actus p {
@@ -375,7 +360,6 @@ footer {
 
 .blog-header-second-row {
 	width: 100%;
-	/*border: green solid 2px;*/
 	margin: auto;
 	font-size: 2em;
 	color: white;
@@ -402,7 +386,7 @@ footer {
 
 .wrapper-about-header {
   position: relative;
-  height: 600px;/*350*/
+  height: 600px;
   overflow: hidden;
 }
 
@@ -412,10 +396,10 @@ footer {
   top: -200px;
   left: -30%;
   width: 160%;
-  height: 800px;/*550*/
+  height: 800px;
   background: center url("images/about/about-header.jpg");
   background-position: 50% 16%;
-  border-radius: 50%;/*50*/
+  border-radius: 50%;
 }
 
 #about-header {
@@ -428,7 +412,6 @@ footer {
 .about-header-first-row {
 	display: flex;
 	justify-content: space-between;
-	/*color: white;*/
 	margin-left: 5%;
 }
 
@@ -438,11 +421,9 @@ footer {
 
 .about-header-second-row {
 	width: 100%;
-	/*border: green solid 2px;*/
 	margin: auto;
 	margin-top: 7%;
 	font-size: 2em;
-/*	color: rgb(65, 49, 47);*/
 	color: white !important;
 	text-align: center;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -456,7 +437,7 @@ footer {
 }
 
 .about-header-second-row p {
-margin-top: 0;
+	margin-top: 0;
 }
 
 #about-title {
@@ -489,8 +470,7 @@ margin-top: 0;
 	width: 25%;
 	margin-left: 2%;
 	padding: 3px;
-/*	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
-*/	display: flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden!important
@@ -609,8 +589,7 @@ margin-top: 0;
 	width: 25%;
 	margin-right: 2%;
 	padding: 3px;
-/*	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
-*/	display: flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden!important;
@@ -626,28 +605,28 @@ margin-top: 0;
 /* LESSONS HEADER */
 
 .wrapper-lessons-header {
-  position: relative;
-  height: 350px;
-  overflow: hidden;
+	position: relative;
+	height: 350px;
+	overflow: hidden;
 }
 
 .wrapper-lessons-header:before {
-  content: '';
-  position: absolute;
-  top: -200px;
-  left: -15%;
-  width: 130%;
-  height: 550px;
-  background: center url("images/lessons/lessons-header.jpg");
-  background-position: 50% 50%;
-  border-radius: 50%;
+	content: '';
+	position: absolute;
+	top: -200px;
+	left: -15%;
+	width: 130%;
+	height: 550px;
+	background: center url("images/lessons/lessons-header.jpg");
+	background-position: 50% 50%;
+	border-radius: 50%;
 }
 
 #lessons-header {
-  position: relative;
-  padding: 20px;
-  padding-top: 0;
-  text-align: center;
+	position: relative;
+	padding: 20px;
+	padding-top: 0;
+	text-align: center;
 }
 
 .lessons-header-first-row {
@@ -773,10 +752,6 @@ margin-top: 0;
 	width: 45%;
 }
 
-/*#schedule-texts .schedule-row:nth-of-type(4) img {
-	margin-top: 0%;
-}*/
-
 #arrow-w-number-2 {
 	width: 20%;
 }
@@ -817,7 +792,6 @@ margin-top: 0;
 	background-color: rgb(226, 67, 32);
 	text-align: center;
 	font-size: 2.5em;
-	/*transform: skew(-10deg);*/
 }
 
 #panel-infos-lessons p {
@@ -830,28 +804,28 @@ margin-top: 0;
 /* CONTACT HEADER */
 
 .wrapper-contact-header {
-  position: relative;
-  height: 350px;
-  overflow: hidden;
+	position: relative;
+	height: 350px;
+	overflow: hidden;
 }
 
 .wrapper-contact-header:before {
-  content: '';
-  position: absolute;
-  top: -200px;
-  left: -15%;
-  width: 130%;
-  height: 550px;
-  background: center url("images/contact/contact-header.jpg");
-  background-position: 50% 47%;
-  border-radius: 50%;
+	content: '';
+	position: absolute;
+	top: -200px;
+	left: -15%;
+	width: 130%;
+	height: 550px;
+	background: center url("images/contact/contact-header.jpg");
+	background-position: 50% 47%;
+	border-radius: 50%;
 }
 
 #contact-header {
-  position: relative;
-  padding: 20px;
-  padding-top: 0;
-  text-align: center;
+	position: relative;
+	padding: 20px;
+	padding-top: 0;
+	text-align: center;
 }
 
 .contact-header-first-row {
@@ -1041,7 +1015,6 @@ margin-top: 0;
 	width: 80%;
 }
 
-
 /* 404 */
 
 #message-404 {
@@ -1050,7 +1023,6 @@ margin-top: 0;
 	margin-top: 5%;
 	margin-bottom: 10%;
 }
-
 
 /* BLOG */
 
@@ -1115,15 +1087,10 @@ margin-top: 0;
 	font-size: 3em;
 }
 
-#single-post-content p {
-	/*text-align: justify;*/
-}
-
 #author-date {
 	text-align: right !important;
 	font-size: 1.3em;
 }
-
 
 /* SHOP HEADER */
 
@@ -1136,7 +1103,6 @@ margin-top: 0;
 }
 
 #top-shop-header {
-	/*height: 2.4vh;*/
 	height: 20%;
 	background-color: rgb(112, 96, 94);
 	display: flex;
@@ -1153,7 +1119,6 @@ margin-top: 0;
 }
 
 #bottom-shop-header {
-	/*height: 12.6vh;*/
 	height: 80%;
 	width: 100%;
 	background-color: rgb(206, 195, 194);
@@ -1321,12 +1286,7 @@ margin-top: 0;
 
 .lrg-single-product li {
 	display: flex;
-	/*justify-content: space-around;*/
 	width: 100% !important;
-}
-
-.lrg-single-product li img {
-	/*width: 30%;*/
 }
 
 .lrg-single-product a {
@@ -1352,7 +1312,6 @@ margin-top: 0;
 }
 
 .price {
-	/*width: 25%;*/
 	float: left;
 	font-size: 1.3em !important;
 	font-weight: bold !important;
@@ -1362,8 +1321,6 @@ margin-top: 0;
 	padding-left: 0 !important;
 	padding-right: 0.2em !important;
 	color: rgb(65, 49, 47) !important;
-/*	position: absolute !important;
-	bottom: 5% !important;*/
 }
 
 .add_to_cart_button {
@@ -1372,7 +1329,6 @@ margin-top: 0;
 	float: right; 
 	margin-top: 0 !important;
 	margin-right: 5% !important;
-/*	background-color: rgb(226, 67, 32) !important;*/
 	background-color: white !important;
 	color: white !important;
 	position: absolute !important;
@@ -1387,7 +1343,7 @@ margin-top: 0;
 	content:"\e017";
 	margin-left:.33em !important;
 	vertical-align:bottom
-}/* To center the check mark when product is added to cart */
+}
 
 a.added_to_cart {display:none !important}
 
@@ -1414,7 +1370,7 @@ a.added_to_cart {display:none !important}
 }
 
 #primary {
-	overflow: hidden; /* resoud le probleme du footer */
+	overflow: hidden;
 }
 
 /* SINGLE PRODUCT PAGE */
@@ -1445,7 +1401,6 @@ a.added_to_cart {display:none !important}
 /* CART */
 
 .content {
-
 	width: 75%;
 	margin: auto;
 }
@@ -1459,7 +1414,6 @@ a.added_to_cart {display:none !important}
 #place_order {
 	background-color: rgb(226, 67, 32) !important;	
 }
-
 
 /* lEGAL */
 
@@ -1548,9 +1502,7 @@ a.added_to_cart {display:none !important}
 		top: 0;
 		min-height: 46px;
 		z-index: 2;
-		/*border: solid 2px rgba(226, 67, 32, 1)*/
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
 	}
 
 	.responsive-navbar a {
@@ -1574,14 +1526,9 @@ a.added_to_cart {display:none !important}
 		border: none;
 		outline: none;
 		color: white;
-		/*padding: 14px 16px;*/
 		background-color: inherit;
 		font-family: inherit;
 		margin: 0;
-	}
-
-	.responsive-navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-		/*background-color: red;*/
 	}
 
 	.dropdown-content {
@@ -1594,10 +1541,6 @@ a.added_to_cart {display:none !important}
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 1;
-		/*border-bottom: solid 2px rgba(226, 67, 32, 1);
-		border-left: solid 2px rgba(226, 67, 32, 1);
-		border-right: solid 2px rgba(226, 67, 32, 1);
-		margin-left: -2px;*/
 	}
 
 	.dropdown-content a {
@@ -1774,8 +1717,7 @@ a.added_to_cart {display:none !important}
 		margin-bottom: 5px;
 	}
 
-	footer {
-		 
+	footer { 
 		min-height: 100px;
 		height: 320px;
 		display: flex;
@@ -1788,7 +1730,6 @@ a.added_to_cart {display:none !important}
 		width: 100%;
 		margin-top: 10px;
 		justify-content: space-around;
-		/*margin-bottom: 10px;*/
 	}
 
 	#footer-logo {
@@ -2026,8 +1967,7 @@ a.added_to_cart {display:none !important}
 		width: 90%;
 		margin: auto;
 		padding: 3px;
-/*		background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='rgb(65, 49, 47)' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
-*/		display: flex;
+		display: flex;
 		justify-content: center;
 		align-items: center;
 		overflow: hidden!important;
@@ -2070,7 +2010,6 @@ a.added_to_cart {display:none !important}
 		color: white;
 		font-size: 2.5em;
 		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
 	}
 
 	#contact-main-container {
@@ -2101,7 +2040,6 @@ a.added_to_cart {display:none !important}
 	#desktop-art img {
 		width: 90%;
 	}
-
 
 	/* BLOG PAGE MOBILE */
 
@@ -2166,7 +2104,6 @@ a.added_to_cart {display:none !important}
 	}
 
 	/* SHOP PAGE MOBILE */
-
 
 	.dgwt-wcas-layout-classic {
 

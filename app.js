@@ -22,8 +22,6 @@ for (let i = 0; i < length; i++) {
 
 /* Fonctionnement de la navbar mobile */
 
-
-
 function openMenu() {
   document.getElementById("myDropdown").classList.toggle("show");
   document.getElementById("nav-icon3").classList.toggle("open");
@@ -55,12 +53,3 @@ window.onclick = function(e) {
     }
   }
 }
-
-/*window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myButton = document.getElementById("nav-icon3");
-    if (myButton.classList.contains('open')) {
-      myButton.classList.remove('open');
-    }
-  }
-}*/
