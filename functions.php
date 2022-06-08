@@ -83,6 +83,13 @@ function wpm_remove_sku( $enabled ) {
     return $enabled;
 }
 
+//Rendre l'input telephone optionnel lors de la commande 
+add_filter( 'woocommerce_billing_fields', 'ts_unrequire_wc_phone_field');
+    function ts_unrequire_wc_phone_field( $fields ) {
+    $fields['billing_phone']['required'] = false;
+    return $fields;
+}
+
 
 //remove summary from single product
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );

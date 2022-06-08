@@ -2144,6 +2144,48 @@ a.added_to_cart {display:none !important}
 
 }/* EO @media (max-width: 1190px) */
 
+/* 4K */
+
+@media (min-width: 1921px) {
+
+	/* HOME */
+	.wrapper:before {
+		background: center url("images/header/home-header-4k.jpg");
+	}
+
+	.header-second-row {
+		margin-top: 2%;
+	}
+
+	/* LESSONS */
+
+	.wrapper-lessons-header:before {
+		background: center url("images/lessons/lessons-header-4k.jpg");
+		background-position: 50% 35%;
+	}
+
+	/* ABOUT */
+
+	.wrapper-about-header:before {
+		background: center url("images/about/about-header-4k.jpg");
+		background-position: 50% 30%;
+	}
+
+	/* BLOG */
+
+	.wrapper-blog-header:before {
+		background: center url("images/blog/blog-header-4k.jpg");
+		background-position: 50% 45%;
+	}	
+
+	/* CONTACT */
+
+	.wrapper-contact-header:before {
+		background: center url("images/contact/contact-header-4k.jpg");
+	}
+
+}/* @media (min-width: 1921px) */
+
 /* cookie */
 
 .cc-revoke {

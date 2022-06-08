@@ -78,7 +78,7 @@ Template Name: Contact Page
 				<p id="atelier-p">Mon atelier :</p>
 				<div id="contact-location">
 					<img src="<?php bloginfo( 'template_directory' );?>/images/contact/location.png">
-					<p><a href="https://www.betamachine.fr/">BetaMachine</a><br/>15 Rue Victor Gilbert<br/>28000 Chartres</p>
+					<p><a href="https://www.betamachine.fr/">Association BetaMachine</a><br/>8 rue de la Taye<br/>28110 Lucé</p>
 				</div>
 
 				<div id="contact-phone">
