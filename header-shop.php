@@ -19,8 +19,8 @@
 	</head>
 	<header id="shop-header" class="show-desktop hide-mobile">
 		<div id="top-shop-header">
-			<a href="/wordpress">Accueil > Boutique</a>
-			<a href="/wordpress/contact">Une question ? Me Contacter</a>
+			<a href="<?php bloginfo('url'); ?>">Accueil > Boutique</a>
+			<a href="<?php bloginfo('url'); ?>/contact">Une question ? Me Contacter</a>
 		</div>
 
 		<div id="bottom-shop-header">

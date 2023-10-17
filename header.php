@@ -23,7 +23,7 @@
 			<header>
 				<div class="header-first-row">
 					
-						<a href="/wordpress"><img id="logo" src="<?php bloginfo( 'template_directory' );?>/images/header/logo-header.png"></a>
+						<a href="<?php bloginfo('url'); ?>"><img id="logo" src="<?php bloginfo( 'template_directory' );?>/images/header/logo-header.png"></a>
 
 						<div id="home-menu-social">
 							<?php 
