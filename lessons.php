@@ -32,7 +32,7 @@ Template Name: Lessons Page
 		<header id="lessons-header">
 			<div class="lessons-header-first-row">
 				
-				<a href="/wordpress"><img id="logo-lessons" src="<?php bloginfo( 'template_directory' );?>/images/white-logo.png"></a>
+				<a href="/"><img id="logo-lessons" src="<?php bloginfo( 'template_directory' );?>/images/white-logo.png"></a>
 				
 				<div id="home-menu-social">	
 					<?php 
@@ -50,8 +50,8 @@ Template Name: Lessons Page
 				</div>	
 			</div>
 			<div class="lessons-header-second-row">
-				<p><a href="/wordpress">Accueil</a> > Cours</p>
-				<h1 id="lessons-title"><a href="/wordpress/cours">Cours et Ateliers</a></h1>				
+				<p><a href="/">Accueil</a> > Cours</p>
+				<h1 id="lessons-title"><a href="/cours">Cours et Ateliers</a></h1>				
 			</div>
 		</header>
 	</div>
@@ -62,10 +62,6 @@ Template Name: Lessons Page
 		<div id="mobile-lessons-header-content">
 			<h1 id="lessons-title-mobile">Cours et Ateliers</h1>
 		</div>	
-	</div>
-
-	<div id="lessons-coming-soon">
-		<p>Bientôt disponible...</p>
 	</div>
 
 	<div id="lessons-content">
@@ -82,25 +78,23 @@ Template Name: Lessons Page
 				</div>
 
 				<div class="schedule-row">
-					<p>Sur RDV (prochainement)</p>
+					<p>Sur RDV</p>
 					<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/calendar.png">
-					<p>Sur RDV (prochainement)</p>
+					<p>Sur RDV</p>
 				</div>
 
 				<div class="schedule-row">
-					<p>Durée : 3h/semaine</p>
+					<p>Séance de 3h</p>
 					<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/clock.png">
-					<p>Durée : 4h</p>
+					<p>3h de cours <br> 10 cours au trimestre</p>
 				</div>	
 
 				<div class="schedule-row">
-					<p>80€/séance</p>
+					<p>60€</p>
 					<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/bubble.png">
-					<p>Possibilité de réserver au trimestre,
-					<br> soit 10 semaines de cours
-					<br>
-					Prix : 50€/ séance de 3h <br> 450€ les 10 séances</p>
-				</div>				
+					<p>480€</p>
+				</div>
+				<p class="wecandoo-disclaimer">Possibilité de réserver son cours sur le site <a href="https://wecandoo.fr/ateliers/orleans-blois-chartres/la-poterie-et-ceramique">Wecandoo</a> !</p>
 			</div>
 
 			<div id="arrow-w-number-2">
@@ -117,17 +111,17 @@ Template Name: Lessons Page
 					<h2 class="schedule-titles-mobile"><span class="h2-schedule-color">STAGE D'INITIATION</span></h2>
 
 					<div class="schedule-row">
-						<p>Sur RDV (prochainement)</p>
+						<p>Sur RDV</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/calendar.png">
 					</div>
 
 					<div class="schedule-row">
-						<p>Durée : 3h/semaine</p>
+						<p>Séance de 3h</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/clock.png">
 					</div>	
 
 					<div class="schedule-row">
-						<p>80€/séance</p>
+						<p>60€</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/bubble.png">
 					</div>	
 				</div>
@@ -136,22 +130,23 @@ Template Name: Lessons Page
 					<h2 class="schedule-titles-mobile"><span class="h2-schedule-color">COURS HEBDOMADAIRES</span></h2>
 
 					<div class="schedule-row">
-						<p>Sur RDV (prochainement)</p>
+						<p>Sur RDV</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/calendar.png">
 					</div>
 
 					<div class="schedule-row">
-						<p>Durée : 4h</p>
+						<p>3h de cours <br> 10 cours au trimestre</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/clock.png">	
 					</div>	
 
 					<div class="schedule-row">
-						<p>Possibilité de réserver au trimestre, soit 10 semaines de cours<br>
-						Prix : 50€/ séance de 3h – 450€ les 10 séances</p>
+						<p>480€</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/bubble.png">
 					</div>	
 
 				</div>
+
+                                <p class="wecandoo-disclaimer">Possibilité de réserver son cours sur le site <a href="https://wecandoo.fr/ateliers/orleans-blois-chartres/la-poterie-et-ceramique">Wecandoo</a> !</p>
 			
 			</div>
 

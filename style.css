@@ -247,7 +247,7 @@ footer {
 
 #legal-link-container p {
 	margin: 0;
-	font-size: 0.7em;
+	font-size: 0.9em;
 }
 
 /* FRONT-PAGE NEWS */
@@ -279,6 +279,7 @@ footer {
 .news {
 	text-align: center;
 	width: 100% !important;
+        margin-bottom: 10px;
 }
 
 .grid-date-post {
@@ -763,6 +764,15 @@ footer {
 	right: 18%;
 }
 
+.wecandoo-disclaimer {
+        color: rgb(226, 67, 32);
+        font-weight: bold;
+}
+
+.wecandoo-disclaimer a {
+        color: rgb(226, 67, 32);
+}
+
 #lessons-about {
 	width: 60%;
 	margin: auto;
@@ -1077,7 +1087,7 @@ footer {
 
 #single-post-content {
 	width: 75%;
-	min-height: 40vh;
+	min-height: 415px;
 	margin: auto;
 	margin-top: 3%;
 }
@@ -1377,6 +1387,10 @@ a.added_to_cart {display:none !important}
 
 .woocommerce-Tabs-panel p {
 	text-align: justify;
+}
+
+.woocommerce div.product form.cart div.quantity {
+    margin: 12px 4px 0 4px !important;
 }
 
 .single_add_to_cart_button {
@@ -1831,7 +1845,7 @@ a.added_to_cart {display:none !important}
 	}
 
 	#lessons-mobile {
-		margin-bottom: 80px;
+		margin-bottom: 30px;
 	}
 
 	#lessons-title-mobile {
@@ -1863,6 +1877,13 @@ a.added_to_cart {display:none !important}
 	.schedule-row p {
 		width: 60%;
 	}
+
+        .wecandoo-disclaimer {
+                width: 90%;
+                margin: auto;
+                text-align: center;
+                margin-bottom: 80px;
+        }
 
 	#lessons-about {
 		width: 90%;
@@ -2023,8 +2044,12 @@ a.added_to_cart {display:none !important}
 		border-right: none;
 	}
 
+        #contact-main-container-left  textarea {
+	        width: 100%;
+        }
+
 	#contact-main-container-left input {
-		width: 80%;
+		width: 100%;
 	}
 
 	#contact-main-container-right {
@@ -2060,8 +2085,8 @@ a.added_to_cart {display:none !important}
 		left: -25%;
 		width: 150%;
 		height: 300px;
-		background: center url("images/blog/back-1190.jpg");		
-		background-position: 70% 10%;
+		background: center url("images/blog/blog-header-mobile.jpg");		
+		background-position: 50% 42%;
 		border-radius: 50%;
 	}
 
@@ -2097,6 +2122,7 @@ a.added_to_cart {display:none !important}
 	#single-post-content {
 		width: 90%;
 		margin-bottom: 50px;
+                min-height: 40vh;
 	}
 
 	#single-post-content h2 {
@@ -2157,6 +2183,10 @@ a.added_to_cart {display:none !important}
 		margin-top: 2%;
 	}
 
+	#home-content{
+                min-height: 1800px;
+        }
+
 	/* LESSONS */
 
 	.wrapper-lessons-header:before {
@@ -2171,12 +2201,21 @@ a.added_to_cart {display:none !important}
 		background-position: 50% 30%;
 	}
 
+	#contact-content{
+                min-height: 1800px;
+        }
+
+
 	/* BLOG */
 
 	.wrapper-blog-header:before {
 		background: center url("images/blog/blog-header-4k.jpg");
 		background-position: 50% 45%;
-	}	
+	}
+
+	#blog-feed{
+                min-height: 1800px;
+        }
 
 	/* CONTACT */
 
@@ -2190,4 +2229,4 @@ a.added_to_cart {display:none !important}
 
 .cc-revoke {
 	display: none !important;
-}
+}					
