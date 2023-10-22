@@ -90,9 +90,9 @@ Template Name: Lessons Page
 				</div>	
 
 				<div class="schedule-row">
-					<p>60€</p>
+					<p>65€</p>
 					<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/bubble.png">
-					<p>480€</p>
+					<p>500€</p>
 				</div>
 				<p class="wecandoo-disclaimer">Possibilité de réserver son cours sur le site <a href="https://wecandoo.fr/ateliers/orleans-blois-chartres/la-poterie-et-ceramique">Wecandoo</a> !</p>
 			</div>
@@ -121,7 +121,7 @@ Template Name: Lessons Page
 					</div>	
 
 					<div class="schedule-row">
-						<p>60€</p>
+						<p>65€</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/bubble.png">
 					</div>	
 				</div>
@@ -140,7 +140,7 @@ Template Name: Lessons Page
 					</div>	
 
 					<div class="schedule-row">
-						<p>480€</p>
+						<p>500€</p>
 						<img class="center-logos" src="<?php bloginfo( 'template_directory' );?>/images/lessons/bubble.png">
 					</div>	
 
